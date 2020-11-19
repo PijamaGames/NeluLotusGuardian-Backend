@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" content="user-scalable=no">
+  <title>Nelu: Lotus Guardian</title>
+  <link rel="shortcut icon" type="image/png" href="/resources/input/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="Main()">
+  <style>
+    @font-face{
+      font-family:"Pixel Play" ;
+      src:url("resources/fonts/pixelplay.ttf") format('truetype'),
+          url("resources/fonts/pixelplay.woff") format('woff');
+    }
+  </style>
+  <canvas id="game_surface" width="640" height="480"></canvas>
+
+  <div id="UI">
+
+  </div>
+
+  <textarea id="bytecodeText" rows="8" cols="80"></textarea>
+
+
+
+  <img class="tex" hidden=true, id="nelu_idle" , src="resources/idle_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_run" , src="resources/running_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_attack1" , src="resources/combo1_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_attack2" , src="resources/combo2_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_attack3" , src="resources/combo3_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_die", src="resources/die_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="monkey_CAC" , src="resources/monkey_attack_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="monkey_AD" , src="resources/monkey_throw_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="monkey_idle" , src="resources/monkey_idle_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="monkey_run" , src="resources/monkey_running_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="monkey_die" , src="resources/monkey_die_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="beekeeper_CAC" , src="resources/apicultor_attack_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="beekeeper_AD" , src="resources/apicultor_throw_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="beekeeper_idle" , src="resources/apicultor_idle_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="beekeeper_run" , src="resources/apicultor_running_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="beekeeper_die" , src="resources/apicultor_die_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="hummingbird" , src="resources/hummingbird_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="smoke" , src="resources/smoke_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="bee" , src="resources/bee_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_particles2" , src="resources/particles2_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_particles1" , src="resources/particles1_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_particles2" , src="resources/particles2_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_particles3" , src="resources/particles3_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="nelu_fire" , src="resources/nelu_fire_spritesheet.png" alt="">
+  <img class="tex" hidden=true, id="fire" , src="resources/fire_spritesheet.png" alt="">
+
+  <img class="tex" hidden=true, id="uiTileMap" , src="resources/input/UIelements.png" alt="">
+  <img class="tex" hidden=true, id="controls" , src="resources/input/controls.png" alt="">
+  <img class="tex" hidden=true, id="tileMap" , src="resources/tileMap.png" alt="">
+  <img class="tex" hidden=true, id="ad2" , src="resources/input/promo1.png" alt="">
+  <img class="tex" hidden=true, id="ad3" , src="resources/input/promo2.png" alt="">
+  <img class="tex" hidden=true, id="ad1" , src="resources/input/pijamaAd.png" alt="">
+
+  <img class="tex" hidden=true id="btn_placeHolder" src="resources/input/fullscreenButton.png" alt="">
+  <img class="tex" hidden=true id="backJoystick" src="resources/input/backJoystick.png" alt="">
+  <img class="tex" hidden=true id="frontJoystick" src="resources/input/frontJoystick.png" alt="">
+  <img class="tex" hidden=true id="hummingbirdJoystick" src="resources/input/hummingbirdJoystick.png" alt="">
+  <img class="tex" hidden=true id="btn_dash" src="resources/input/dashButton.png" alt="">
+  <img class="tex" hidden=true id="btn_CAC" src="resources/input/attackButton.png" alt="">
+  <img class="tex" hidden=true id="btn_bee" src="resources/input/beeButton.png" alt="">
+
+  <img class="tex" hidden=true id="tree" src="resources/decoration/animated/tree_6x6.png" alt="">
+  <img class="tex" hidden=true id="bush" src="resources/decoration/animated/bush_2x2.png" alt="">
+  <img class="tex" hidden=true id="waterbottom" src="resources/decoration/animated/water_bottom_1x1.png" alt="">
+  <img class="tex" hidden=true id="waterbottomleft" src="resources/decoration/animated/water_bottom_left_1x1.png" alt="">
+  <img class="tex" hidden=true id="waterbottomright" src="resources/decoration/animated/water_bottom_right_1x1.png" alt="">
+  <img class="tex" hidden=true id="waterleft" src="resources/decoration/animated/water_left_1x1.png" alt="">
+  <img class="tex" hidden=true id="waterouterbottonleft" src="resources/decoration/animated/water_outer_bottom_left_1x1.png" alt="">
+  <img class="tex" hidden=true id="waterouterbottomright" src="resources/decoration/animated/water_outer_bottom_right_1x1.png" alt="">
+  <img class="tex" hidden=true id="wateroutertopleft" src="resources/decoration/animated/water_outer_top_left_1x1.png" alt="">
+  <img class="tex" hidden=true id="wateroutertopright" src="resources/decoration/animated/water_outer_top_right_1x1.png" alt="">
+  <img class="tex" hidden=true id="waterright" src="resources/decoration/animated/water_right_1x1.png" alt="">
+  <img class="tex" hidden=true id="watertop" src="resources/decoration/animated/water_top_1x1.png" alt="">
+  <img class="tex" hidden=true id="watertopleft" src="resources/decoration/animated/water_top_left_1x1.png" alt="">
+  <img class="tex" hidden=true id="watertopright" src="resources/decoration/animated/water_top_right_1x1.png" alt="">
+  <img class="tex" hidden=true id="water1" src="resources/decoration/animated/water1_1x1.png" alt="">
+  <img class="tex" hidden=true id="water2" src="resources/decoration/animated/water2_1x1.png" alt="">
+  <img class="tex" hidden=true id="water3" src="resources/decoration/animated/water3_1x1.png" alt="">
+
+  <img class="tex" hidden=true id="noise" src="resources/noise.png" alt="">
+  <img class="tex" hidden=true id="parallax1" src="resources/input/menuBackground.png" alt="">
+
+  <img class="tex" hidden=true id="cutScene1_0" src="resources/boat_day/boat_night0001-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_1" src="resources/boat_day/boat_night0002-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_2" src="resources/boat_day/boat_night0003-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_3" src="resources/boat_day/boat_night0004-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_4" src="resources/boat_day/boat_night0005-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_5" src="resources/boat_day/boat_night0006-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_6" src="resources/boat_day/boat_night0007-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_7" src="resources/boat_day/boat_night0008-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_8" src="resources/boat_day/boat_night0009-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_9" src="resources/boat_day/boat_night0010-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_10" src="resources/boat_day/boat_night0011-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_11" src="resources/boat_day/boat_night0012-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_12" src="resources/boat_day/boat_night0013-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_13" src="resources/boat_day/boat_night0014-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_14" src="resources/boat_day/boat_night0015-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene1_15" src="resources/boat_day/boat_night0016-min.png" alt="">
+
+  <img class="tex" hidden=true id="cutScene2_0" src="resources/boat_night/boat_night0001-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_1" src="resources/boat_night/boat_night0002-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_2" src="resources/boat_night/boat_night0003-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_3" src="resources/boat_night/boat_night0004-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_4" src="resources/boat_night/boat_night0005-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_5" src="resources/boat_night/boat_night0006-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_6" src="resources/boat_night/boat_night0007-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_7" src="resources/boat_night/boat_night0008-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_8" src="resources/boat_night/boat_night0009-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_9" src="resources/boat_night/boat_night0010-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_10" src="resources/boat_night/boat_night0011-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_11" src="resources/boat_night/boat_night0012-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_12" src="resources/boat_night/boat_night0013-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_13" src="resources/boat_night/boat_night0014-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_14" src="resources/boat_night/boat_night0015-min.png" alt="">
+  <img class="tex" hidden=true id="cutScene2_15" src="resources/boat_night/boat_night0016-min.png" alt="">
+
+  <script src="scripts/eventDispatcher.js" charset="utf-8"></script>
+  <script src="scripts/user.js" charset="utf-8"></script>
+  <script src="scripts/network.js" charset="utf-8"></script>
+
+  <script src="scripts/howler.core.js" charset="utf-8"></script>
+  <script src="scripts/graphics/graphics.js" charset="utf-8"></script>
+  <script src="scripts/graphics/program.js" charset="utf-8"></script>
+  <script src="scripts/graphics/uniform.js" charset="utf-8"></script>
+  <script src="scripts/graphics/lighting.js" charset="utf-8"></script>
+  <script src="scripts/graphics/parallax.js" charset="utf-8"></script>
+
+  <script src="scripts/component/component.js" charset="utf-8"></script>
+  <script src="scripts/component/rigidbody.js" charset="utf-8"></script>
+  <script src="scripts/component/audioSource.js" charset="utf-8"></script>
+  <script src="scripts/component/colliderGroup.js" charset="utf-8"></script>
+  <script src="scripts/colliders/collider.js" charset="utf-8"></script>
+  <script src="scripts/colliders/boxCollider.js" charset="utf-8"></script>
+  <script src="scripts/colliders/circleCollider.js" charset="utf-8"></script>
+  <script src="scripts/vec2.js" charset="utf-8"></script>
+  <script src="scripts/component/transform.js" charset="utf-8"></script>
+  <script src="scripts/component/camera.js" charset="utf-8"></script>
+  <script src="scripts/component/renderers/renderer.js" charset="utf-8"></script>
+  <script src="scripts/component/renderers/spriteRenderer.js" charset="utf-8"></script>
+  <script src="scripts/component/renderers/imageRenderer.js" charset="utf-8"></script>
+  <script src="scripts/component/renderers/videoRenderer.js" charset="utf-8"></script>
+  <script src="scripts/component/textBox.js" charset="utf-8"></script>
+  <script src="scripts/component/scrollButton.js" charset="utf-8"></script>
+  <script src="scripts/component/inputField.js" charset="utf-8"></script>
+  <script src="scripts/component/customBehaviour.js" charset="utf-8"></script>
+  <script src="scripts/component/networkEntity.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/masterController.js" charset="utf-8"></script>
+  <script src="scripts/component/burnable.js" charset="utf-8"></script>
+  <script src="scripts/component/barrier.js" charset="utf-8"></script>
+  <script src="scripts/component/destructible.js" charset="utf-8"></script>
+  <script src="scripts/component/spawner.js" charset="utf-8"></script>
+
+  <script src="scripts/component/controllers/debugController.js" charset="utf-8"></script>
+  <script src="scripts/FSM/fsm.js" charset="utf-8"></script>
+  <script src="scripts/FSM/node.js" charset="utf-8"></script>
+  <script src="scripts/FSM/edge.js" charset="utf-8"></script>
+  <script src="scripts/component/lightSource.js" charset="utf-8"></script>
+  <script src="scripts/component/shadowCaster.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/playerController.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/enemyController.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/beekeeperController.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/appleController.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/particlesController.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/colibriController.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/beeController.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/flowerController.js" charset="utf-8"></script>
+  <script src="scripts/component/dialogSystem.js" charset="utf-8"></script>
+  <script src="scripts/component/interactive.js" charset="utf-8"></script>
+  <script src="scripts/component/controllers/battleController.js" charset="utf-8"></script>
+
+  <script src="scripts/scene.js" charset="utf-8"></script>
+  <script src="scripts/input/input.js" charset="utf-8"></script>
+  <script src="scripts/input/virtualInput.js" charset="utf-8"></script>
+  <script src="scripts/input/virtualJoystick.js" charset="utf-8"></script>
+  <script src="scripts/gameobj.js" charset="utf-8"></script>
+  <script src="scripts/manager.js" charset="utf-8"></script>
+  <script src="scripts/resources.js" charset="utf-8"></script>
+
+  <script src="scripts/prefabs/prefabFactory.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/prefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/controllerPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/enemyPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/decoAnimPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/particlePrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/mainMenuPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/optionsPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/startPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/galleryUIprefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/pausePrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/singleGameUIPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/multiGameUIPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/lobbyPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/chooseEnviromentPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/roomPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/connectionFailed.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/focusLostPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/creditsPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/scenesPrefabs/controlsPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/flowerPrefabs.js" charset="utf-8"></script>
+  <script src="scripts/finder.js" charset="utf-8"></script>
+  <script src="scripts/prefabs/mapEditor.js" charset="utf-8"></script>
+
+  <script src="scripts/scenes/BC_MainMenu.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Options.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Gallery.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Start.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Pause.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_SingleGame.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_CutScene1.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_CutScene2.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_CutScene3.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_MultiGame1.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_MultiGame2.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_MultiGame3.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_MultiGame4.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Lobby.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_ChooseEnviroment.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Room.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_ConnectionFailed.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_FocusLost.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Credits.js" charset="utf-8"></script>
+  <script src="scripts/scenes/BC_Controls.js" charset="utf-8"></script>
+
+  <script src="scripts/physics.js" charset="utf-8"></script>
+
+
+  <script src="scripts/dialogs.js" charset="utf-8"></script>
+
+  <script src="scripts/index.js" charset="utf-8"></script>
+</body>
+
+</html>

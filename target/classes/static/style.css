@@ -1,0 +1,176 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+ width: 2vmin;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background: #cae68000;
+ border-radius: 2vmin;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: #546528;
+ border-radius: 2vmin;
+}
+::-webkit-scrollbar-corner{
+  background: #cae68000;
+}
+
+.strokeText{
+  -webkit-text-stroke: 0.03vmin black;
+  text-stroke: 0.03vmin black;
+}
+
+p{
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  margin-left: 2vmin;
+  margin-right: 2vmin;
+  border:2vmin;
+}
+div{
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  margin-left: 2vmin;
+  margin-right: 2vmin;
+  border:2vmin;
+  color:#546528;
+
+}
+input{
+  display: block;
+  width: 90%;
+  height: 8vmin;
+  font-family: "Pixel Play";
+  font-size: 4vmin;
+  text-align: left;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  padding-top: 0.5vmin;
+  padding-bottom: 0.5vmin;
+  margin-left: 3.5vmin;
+  margin-right: 2.5vmin;
+  outline: none;
+  border-radius:3vmin;
+  background-color: #cae680;
+  color:#546528;
+  border: 1vmin;
+  border-style: solid;
+  border-color: #cae680;
+  box-sizing: border-box;
+  cursor: url(resources/input/cursor.png), auto;
+}
+
+input:focus{
+  border: 1vmin;
+  border-style: solid;
+  border-color: #80bf00;
+  outline: none;
+  border-radius:3vmin;
+  cursor: url(resources/input/cursor.png), auto;
+}
+
+.game_input{
+  z-index: 1000;
+  position: absolute;
+  font-family: "Pixel Play";
+  font-size: 5vmin;
+  /*margin:0;*/
+  /*padding-left: 2vmin;
+  padding-right: 2vmin;
+  margin-left: 2.5vmin;
+  margin-right: 2.5vmin;*/
+  left:0;
+  top:0;
+}
+
+.game_text{
+  z-index: 1000;
+  position: absolute;
+  color: #546528;
+  font-family: "Pixel Play";
+  font-size: 5vmin;
+  margin:0;
+  padding: 0;
+  left:0;
+  top:0;
+  pointer-events:none;
+  -moz-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.game_scrollBox{
+  cursor: url(resources/input/cursor.png), auto;
+  z-index: 1000;
+  position: absolute;
+  font-family: "Pixel Play";
+  font-size: 5vmin;
+  margin:0;
+  padding: 0;
+  left:0;
+  top:0;
+  overflow-y: scroll;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-y: scroll;
+}
+
+#gameTitle{
+  color:white;
+  font-size: 12vmin;
+}
+
+#introduceNameText{
+  color:#cae680;
+}
+#wrongName{
+  color:#cae680;
+}
+#WaitingMessage{
+  color:#cae680;
+}
+
+#UI{
+  position: fixed;
+  z-index: 1000;
+  margin:0;
+  padding: 0;
+  width:0;
+  height:0;
+  text-rendering: geometricPrecision;
+  cursor: url(resources/input/cursor.png), auto;
+}
+
+#game_surface{
+  width: 100%;
+  border:0;
+  margin:0;
+  padding: 0;
+  top:0;
+  left:0;
+  position: fixed;
+  image-rendering: optimizeSpeed;             /* Older versions of FF          */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+  image-rendering: -webkit-optimize-contrast; /* Safari                        */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;                 /* Awesome future-browsers       */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+  cursor: url(resources/input/cursor.png), auto;
+}
+
+
+/*
+*  ref: https://stackoverflow.com/questions/7615009/disable-interpolation-when-scaling-a-canvas
+*/

@@ -1,0 +1,1923 @@
+var BC_SingleGame = `
+WebsocketKeeper 0 0 0
+BindWeed 67 -12 0.5 1 2
+BindWeed 67 -10 0.5 1 2
+BindWeed 67 -11 0.5 1 2
+PauseFromSingleGame 0.1 -0.07 0
+SingleLifeText 0.5 -0.07 0
+DialogSystem 0 0 0
+SingleGameMusic 0 0 0
+Nelu 0 2 0
+WaterLeft -13 -12 0 1 18
+WaterLeft -13 6 0 1 18
+WaterRight -4 -12 0 1 30
+Dirt23 21 3 2 1 1
+Dirt21 19 3 2 1 1
+Dirt22 20 3 2 1 1
+Dirt21 -3 10 2 1 1
+Dirt24 -3 11 2 1 6
+Dirt17 19 10 2 1 1
+Dirt -2 11 2 21 6
+Dirt 19 11 2 1 8
+Dirt25 21 4 2 1 14
+Dirt28 21 -2 2 1 1
+Dirt 20 -18 2 1 16
+Dirt24 -3 -15 2 1 6
+Dirt -2 -15 2 21 6
+Dirt 19 -17 2 1 8
+Dirt26 -3 -9 2 1 1
+Dirt27 -2 -9 2 15 1
+Dirt27 14 -8 2 2 1
+Dirt26 13 -8 2 1 1
+Dirt26 16 -7 2 1 1
+Dirt12 16 -8 2 1 1
+Dirt12 13 -9 2 1 1
+Dirt12 17 -7 2 1 1
+Dirt12 18 -6 2 1 1
+Dirt12 19 -3 2 1 1
+Dirt 18 -9 2 1 3
+Dirt 13 -9 2 5 1
+Dirt 17 -8 2 1 1
+LogVertical 9.418785095214844 3.3480606079101562 0 1 2
+LogHorizontal -1.3810853958129883 3.4566454887390137 0
+Grass 24 -12 0 27 31
+CampLog 32 4 0
+CampLog 34 4 0
+CampLog 36 4 0
+CampTop2 32 4 2
+CampTop2 33 4 2
+CampTop2 34 4 2
+CampTop2 35 4 2
+CampTop2 36 4 2
+CampTop1 33 4 1
+CampTop1 35 4 1
+CampTop2 32 5 2
+CampTop2 33 5 2
+CampTop2 34 5 2
+CampTop2 35 5 2
+CampTop2 36 5 2
+CampTop3 32 6 2
+CampTop3 33 6 2
+CampTop3 34 6 2
+CampTop3 35 6 2
+CampTop3 36 6 2
+CampLog 32 6 0
+CampLog 34 7 0
+CampLog 36 7 0
+Campfire 29 5 0 1 1
+LogHorizontal 28 7 0
+LogHorizontal 2.4893441200256348 0.20266199111938477 0
+LogHorizontal 6.471505641937256 3.506744861602783 0
+Grass -3 -12 0 27 31
+LogVertical 26.991554260253906 4.865480422973633 0 1 2
+Nest 30.353923797607422 6.121962547302246 0
+BrokenEggs 30.090408325195312 5.877704620361328 0
+Dirt 0 -30 2 21 6
+Dirt 0 -24 2 21 6
+Dirt 19 -18 2 1 1
+Dirt 5 -18 2 14 3
+Dirt -2 -18 2 7 3
+Dirt24 -3 -27 2 1 12
+Dirt -2 -27 2 2 9
+WaterRight -4 -26 0 1 14
+Cave 57 -8 0
+Cave 54 -8 0
+DirtWall2 55 -8 0
+DirtWall2 56 -8 0
+DirtWall2 53 -8 0
+DirtWall2 58 -8 0
+Dirt21 52 -8 2 1 1
+Dirt22 53 -8 2 6 1
+Dirt24 52 -7 2 1 6
+Grass 51 -12 0 27 31
+Dirt25 59 -7 2 1 2
+Dirt22 61 -4 2 1 1
+Dirt23 60 -5 2 1 1
+Dirt23 62 -4 2 1 1
+DirtWall2 61 -4 0
+DirtWall2 63 -3 0
+DirtWall2 64 -3 0
+Dirt23 65 -3 2 1 1
+Dirt22 63 -3 2 2 1
+Dirt 59 -2 2 7 3
+BigLogPack 43 -11 0
+WoodStick 42.08372116088867 -9.65585422 0
+WoodStick 42.08372116088867 -10.803750991821289 0
+Dirt 59 -4 2 2 2
+Dirt 59 -5 2 1 1
+Dirt 61 -3 2 2 1
+Grass 78 -12 0 27 31
+Dirt 53 -7 2 6 7
+Dirt26 52 -1 2 1 1
+Dirt26 53 0 2 1 1
+Dirt26 57 1 2 1 1
+Dirt 57 0 2 2 1
+Dirt27 54 0 2 3 1
+Dirt27 58 1 2 3 1
+Dirt26 61 2 2 1 1
+Dirt26 63 3 2 1 1
+Dirt26 66 4 2 1 1
+Dirt27 62 2 2 1 1
+Dirt27 64 3 2 2 1
+Nest 74.57154083251953 -9.585412979125977 0.05
+Nest 77.00421905517578 -9.01146411895752 0.05
+Nest 74.26164245605469 -8.235857963562012 0.05
+Nest 77.25213623046875 -10.050776481628418 0.05
+BrokenEggs 74.63351440429688 -10.888431549072266 0.05
+BrokenEggs 77.45356750488281 -11.695061683654785 0.05
+BrokenEggs 77.1436767578125 -9.21312141418457 0.05
+BrokenEggs 74.15318298339844 -8.51507568359375 0.05
+BrokenEggs 79.47728729248047 -13.05086898803711 0.05
+Dirt 66 -1 2 17 5
+Dirt27 67 4 2 16 1
+Dirt 63 1 2 3 2
+Dirt 61 1 2 2 1
+DirtWall2 66 -2 0
+DirtWall2 70 -2 0
+Cave 74 -2 0
+DirtWall2 75 -2 0
+DirtWall2 76 -2 0
+Cave 77 -2 0
+Cave 80 -2 0
+DirtWall2 78 -2 0
+DirtWall2 79 -2 0
+DirtWall2 73 -2 0
+DirtWall2 72 -2 0
+Cave 71 -2 0
+Dirt22 66 -2 2 17 1
+DirtWall2 69 -2 0
+DirtWall2 68 -2 0
+DirtWall2 67 -2 0
+DirtWall2 81 -2 0
+DirtWall2 82 -2 0
+Nest 76 -11 0.05
+BrokenEggs 76.37757110595703 -11.176103591918945 0.05
+Dirt 21 -29 2 21 6
+Dirt 21 -35 2 21 6
+Dirt 42 -29 2 21 6
+Dirt 42 -35 2 21 6
+Grass 44 -43 0 22 31
+Dirt27 64 -23 2 12 1
+Dirt27 76 -23 2 6 1
+Dirt26 82 -22 2 1 1
+Dirt26 83 -20 2 1 1
+Dirt26 84 -17 2 1 1
+Dirt24 83 -21 2 1 1
+Dirt24 84 -19 2 1 2
+Dirt28 89 -20 2 1 1
+Dirt23 83 -2 2 1 1
+Dirt23 86 -1 2 1 1
+Dirt 83 0 2 4 4
+Dirt 83 -1 2 1 1
+Dirt22 84 -1 2 2 1
+DirtWall2 85 -1 0
+DirtWall2 84 -1 0
+DirtWall2 83 -2 0
+Dirt23 87 0 2 1 1
+Dirt25 87 1 2 1 2
+Dirt28 87 3 2 1 1
+Dirt28 86 4 2 1 1
+Dirt27 83 4 2 3 1
+Dirt 63 -29 2 21 6
+Dirt 63 -35 2 21 6
+Dirt 84 -29 2 5 10
+Dirt 85 -19 2 3 2
+Dirt28 92 -21 2 1 1
+Dirt28 97 -22 2 1 1
+Dirt27 90 -21 2 2 1
+Dirt27 93 -22 2 4 1
+Dirt27 98 -23 2 4 1
+Dirt28 102 -23 2 1 1
+Dirt28 104 -24 2 1 1
+Dirt 89 -31 2 15 7
+Dirt 89 -24 2 4 3
+Dirt 89 -21 2 1 1
+Dirt 93 -24 2 5 2
+Dirt 98 -24 2 5 1
+Dirt27 103 -24 2 1 1
+Dirt23 104 -31 2 1 1
+Dirt25 104 -30 2 1 6
+DirtWall2 100 -35 0
+Dirt 84 -35 2 5 6
+DryPlant 105 -24 0
+DryPlant 106 -24 0
+DryPlant 107 -24 0
+DryPlant 108 -24 0
+DryPlant 109 -24 0
+Dirt -2 17 2 16 6
+Dirt 14 17 2 5 6
+Dirt24 -3 17 2 1 6
+Dirt 19 -9 2 1 6
+Dirt26 17 -6 2 1 1
+DirtWall2 98 -35 0
+DirtWall2 96 -35 0
+DirtWall2 95 -35 0
+DirtWall2 94 -35 0
+DirtWall2 93 -35 0
+DirtWall2 92 -35 0
+DirtWall2 91 -35 0
+DirtWall2 90 -35 0
+DirtWall2 89 -35 0
+DirtWall2 88 -35 0
+DirtWall2 87 -35 0
+DirtWall2 86 -35 0
+Dirt22 89 -35 2 11 1
+DirtWall2 99 -35 0
+WaterTop 115 -36 0 29 1
+LogVertical 92 -13 0 1 2
+FireFlowerBattle 100 -14 0
+Campfire 95 -14 0.05 1 1
+Campfire 98 -13 0.05 1 1
+Campfire 97 -17 0.05 1 1
+Campfire 102 -16 0.05 1 1
+Campfire 106 -18 0.05 1 1
+Campfire 103 -13 0.05 1 1
+DryPlant 108 -17 0
+LogVertical 105 -16 0 1 2
+LogVertical 101.39519500732422 -13.020109176635742 0 1 2
+Cave 100 -10 0
+Cave 101 -10 0
+Cave 102 -10 0
+Cave 103 -10 0
+Cave 104 -10 0
+Dirt 99 -9 2 7 4
+Dirt22 100 -10 2 5 1
+Dirt21 99 -10 2 1 1
+Dirt21 98 -9 2 1 1
+Dirt23 105 -10 2 1 1
+Dirt23 106 -9 2 1 1
+Dirt25 106 -8 2 1 2
+Dirt28 106 -6 2 1 1
+Dirt28 105 -5 2 1 1
+Dirt24 98 -8 2 1 2
+Dirt26 98 -6 2 1 1
+Dirt26 99 -5 2 1 1
+Dirt27 100 -5 2 5 1
+Nest 73.76563262939453 -10.973611831665039 0.05
+CampLog 91 -19 0
+CampTop2 91 -19 2
+CampTop2 92 -19 2
+CampTop2 93 -19 2
+CampTop1 92 -20 2
+CampTop1 94 -20 2
+CampLog 93 -19 0
+CampLog 95 -19 0
+CampTop2 95 -19 2
+CampTop2 91 -18 2
+CampTop2 92 -18 2
+CampTop2 93 -18 2
+CampTop2 94 -18 2
+CampTop2 95 -18 2
+CampTop3 92 -17 2
+CampTop3 91 -17 2
+CampLog 107 -14 0
+CampLog 109 -14 0
+CampLog 111 -14 0
+CampTop1 108 -15 2
+CampTop1 110 -15 2
+DryPlant 99 -16 0
+CampTop2 94 -19 2
+CampTop2 107 -14 2
+CampTop2 108 -14 2
+CampTop2 109 -14 2
+CampTop2 110 -14 2
+CampTop2 111 -14 2
+CampTop2 107 -13 2
+CampTop2 108 -13 2
+CampTop2 109 -13 2
+CampTop2 110 -13 2
+CampTop2 111 -13 2
+CampTop3 107 -12 2
+CampTop3 108 -12 2
+CampTop3 109 -12 2
+CampTop3 110 -12 2
+CampTop3 111 -12 2
+Grass 105 -12 0 27 31
+Campfire 108 -16 0.05 1 1
+CampTop3 93 -17 2
+CampTop3 94 -17 2
+CampTop3 95 -17 2r
+DryPlant 110 -15 0
+LogHorizontal 96.04396057128906 -15.500181198120117 0
+Rock 109.50529479980469 -16.33783721923828 0 1 1
+Grass 123 -35 0 35 6
+Grass 158 -35 0 35 6
+Grass 117 -29 0 29 17
+WaterTop 144 -36 0 29 1
+BigLog 128 -35 0.1
+WaterLeft -13 -26 0 1 14
+Water -12 7 0 8 18
+Water -12 -26 0 8 15
+Nenuphar -9.651144027709961 6.246647357940674 0.05 1 1
+Nenuphar -11.572498321533203 4.757483005523682 0.05 1 1
+Nenuphar -5.26611852645874 5.408992767333984 0.05 1 1
+Nenuphar -6.862082004547119 9.100878715515137 0 1 1
+Nenuphar -6.645155429840088 -4.137390613555908 0.05 1 1
+WaterRight -4 18 0 1 12
+Grass 66 -43 0 22 31
+Grass 88 -35 0 35 6
+Dirt23 102 -35 2 1 1
+Dirt22 100 -35 2 2 1
+DirtWall2 97 -35 0
+DirtWall2 101 -35 0
+Dirt25 103 -32 2 1 1
+Dirt23 103 -33 2 1 1
+Dirt25 102 -34 2 1 1
+Dirt 89 -34 2 13 3
+Dirt 102 -33 2 1 3
+WaterBottom 134 -44 0 48 1
+Water 120 -43 0 32 7
+Water 152 -43 0 32 7
+BrokenEggs 32 -5 0.05
+DirtWall3 105 -10 0
+DirtWall3 106 -9 0
+DirtWall1 99 -10 0
+DirtWall1 98 -9 0
+DirtWall3 59 -8 0
+DirtWall3 60 -5 0
+DirtWall3 65 -3 0
+DirtWall3 62 -4 0
+DirtWall1 52 -8 0
+DirtWall1 19 3 0
+DirtWall3 21 3 0
+Dirt 82 -23 2 2 1
+Dirt 83 -22 2 1 1
+DirtWall3 102 -35 0
+DirtWall3 103 -33 0
+DirtWall3 104 -31 0
+Grass 146 -29 0 23 6
+Grass 169 -29 0 23 6
+Grass 192 -29 0 12 6
+Grass 146 -23 0 23 6
+Dirt22 176 -20 0 4 1
+Grass 176 -21 0 5 1
+DirtWall1 180 -21 0
+DirtWall1 181 -23 0
+DirtWall1 171 -23 0
+DirtWall3 175 -21 0
+DirtWall3 175 -22 0
+DirtWall1 170 -20 0
+DirtWall2 172 -23 0
+DirtWall2 173 -23 0
+Grass 176 -23 0 5 2
+Dirt23 175 -21 2 1 1
+Dirt23 174 -23 2 1 1
+Dirt25 174 -22 2 1 1
+Dirt21 171 -23 2 1 1
+Dirt21 170 -20 2 1 1
+Dirt22 172 -23 2 2 1
+Dirt21 181 -23 2 1 1
+Dirt21 180 -21 2 1 1
+Dirt24 181 -22 2 1 1
+Dirt24 171 -22 2 1 2
+Dirt 172 -21 2 3 1
+Dirt 172 -22 2 2 1
+Dirt25 175 -20 2 1 8
+Dirt28 175 -12 2 1 1
+Dirt 171 -20 2 4 8
+Dirt 181 -20 2 4 8
+DirtWall1 169 -18 0
+DirtWall1 168 -17 0
+Dirt24 170 -19 2 1 1
+Dirt21 169 -18 2 1 1
+Dirt21 168 -17 2 1 1
+Grass 146 -17 0 23 6
+Grass 169 -18 0 6 7
+DirtWall2 167 -16 0
+DirtWall2 166 -16 0
+DirtWall2 165 -16 0
+DirtWall2 164 -16 0
+DirtWall2 163 -16 0
+DirtWall2 162 -16 0
+DirtWall2 161 -16 0
+DirtWall2 160 -16 0
+DirtWall2 159 -16 0
+DirtWall2 158 -16 0
+DirtWall2 157 -16 0
+Dirt 169 -17 2 2 2
+Dirt 157 -15 2 14 3
+Grass 188 -16 0 16 1
+Dirt27 167 -12 2 8 1
+Cave 183 3 0
+DirtWall1 181 3 0
+DirtWall3 174 3 0
+Dirt21 181 3 2 1 1
+Dirt25 166 -11 2 1 8
+Dirt28 166 -3 2 1 1
+Dirt25 166 2 2 1 1
+DirtWall2 169 3 0
+DirtWall2 167 3 0
+Cave 170 3 0
+Cave 185 3 0
+Cave 187 3 0
+DirtWall2 186 3 0
+Dirt 157 -12 2 9 9
+Dirt17 168 -16 2 1 1
+Dirt17 170 -18 2 1 1
+Dirt11 166 -12 2 1 1
+CampLog 168 -9 0
+CampLog 170 -9 0
+CampLog 172 -9 0
+CampTop2 168 -9 2
+CampTop2 169 -9 2
+CampTop2 170 -9 2
+CampTop2 171 -9 2
+CampTop2 172 -9 2
+CampTop3 168 -7 2
+CampTop3 169 -7 2
+CampTop3 170 -7 2
+CampTop3 171 -7 2
+CampTop3 172 -7 2
+CampTop1 171 -10 2
+CampTop1 169 -10 2
+CampTop2 172 -8 2
+CampTop2 171 -8 2
+CampTop2 170 -8 2
+CampTop2 169 -8 2
+CampTop2 168 -8 2
+CampTop1 171 -7 2
+CampTop1 169 -7 2
+Dirt 185 -15 2 10 3
+DirtWall2 187 -7 0
+DirtWall2 188 -7 0
+DirtWall2 189 -7 0
+FireFlower 176 -1 0
+LifeFlowerBig 179 -1 0
+Nest 174.5230255126953 -4.701450347900391 0.05
+Nest 175.18930053710938 -4.825547218322754 0.05
+Nest 176.2894287109375 -4.034428596496582 0.05
+Nest 170.58734130859375 -1.5524883270263672 0.05
+BrokenEggs 170.8507537841797 -1.8317065238952637 0.05
+BrokenEggs 173.6398162841797 -2.6073131561279297 0.05
+BrokenEggs 177.62197875976562 -2.14194917678833 0.05
+BrokenEggs 178.5361785888672 -2.6073131561279297 0.05
+BrokenEggs 177.0796661376953 -3.7086739540100098 0.05
+BrokenEggs 176.70779418945312 -2.8089704513549805 0.05
+Campfire 177.66847229003906 -2.9640917778015137 0.05 1 1
+BrokenEggs 178.0713348388672 -3.863795280456543 0.05
+BrokenEggs 178.9390411376953 -3.3363828659057617 0.05
+Nest 174.95687866210938 -4.018916130065918 0.05
+Campfire 169 -4 0.05 1 1
+Campfire 187 -3 0.05 1 1
+Campfire 183 0 0.05 1 1
+Campfire 174 -8 0.05 1 1
+DirtWall2 182 3 0
+DirtWall2 175 8 0
+DirtWall2 176 8 0
+DirtWall2 177 8 0
+DirtWall2 178 8 0
+DirtWall2 179 8 0
+DirtWall2 180 8 0
+DirtWall2 174 8 0
+DirtWall2 173 8 0
+DirtWall2 172 8 0
+DirtWall2 171 8 0
+DirtWall2 170 8 0
+Dirt25 169 4 2 1 4
+Dirt22 170 8 2 11 1
+Grass7 170 7 0.05 1 1
+Grass7 171.51983642578125 6.409393787384033 0.05 1 1
+Grass7 171.19444274902344 7.1074395179748535 0.05 1 1
+Grass7 172.21710205078125 5.602763652801514 0.05 1 1
+Grass7 170.1407928466797 6.300809383392334 0.05 1 1
+DirtWall2 170 4 0
+DirtWall2 172 4 0
+Dirt22 167 3 2 3 1
+DirtWall2 173 3 0
+Dirt3 174 3 2 1 1
+DirtWall2 173.99778747558594 3.5145840644836426 0
+Dirt27 181 -12 2 5 1
+Dirt24 180 -20 2 1 8
+Dirt26 180 -12 2 1 1
+RockHole 167 0 0.05 1 1
+RockHole 167 -1 0.05 1 1
+BrokenEggs 168.90414428710938 -1.5933228731155396 0.05
+Sand 176 -19 0 4 8
+Sand 166 3 0 27 14
+DirtWall2 190 3 0
+DirtWall2 191 3 0
+Dirt2 187 -7 2 5 1
+Dirt24 192 -6 2 1 9
+DirtWall2 188 3 0
+Dirt17 192 3 2 1 1
+DirtWall2 189 3 0
+Sand 166 -11 0 27 14
+DirtWall2 190 -7 0
+DirtWall2 191 -7 0
+DirtWall2 192 -7 0
+BigLogPackLiana 186 -10 0
+Dirt13 186 -12 2 1 1
+Dirt10 186 -11 2 1 1
+Dirt4 186 -8 2 1 1
+Dirt26 186 -7 2 1 1
+DirtWall2 186 -8 0
+LianaRight 185 -9 0
+LianaRight 185 -8 0
+LianaRight 184.99102783203125 -8.518707275390625 0
+CampLog 191 -3 0
+CampLog 189 -3 0
+CampTop2 189 -3 2
+CampTop2 191 -3 2
+CampTop2 190 -3 2
+CampTop2 189 -2 2
+CampTop2 190 -2 2
+CampTop2 191 -2 2
+CampTop3 189 0 2
+CampTop3 190 0 2
+CampTop3 191 0 2
+CampTop2 189 -1 2
+CampTop2 190 -1 2
+CampTop2 191 -1 2
+CampTop1 190 -4 2
+DirtWall2 183 4 0
+DirtWall2 185 4 0
+DirtWall2 187 4 0
+DirtWall2 171 3 0
+Cave 172 3 0
+Cave 168 3 0
+Dirt10 181 4 2 1 1
+BigLogPackLiana 181 5 0
+LianaLeft 182 6 0
+LianaLeft 182 7 0
+LianaLeft 182.00494384765625 6.495860576629639 0
+DirtWall2 181 7 0
+Dirt4 181 7 2 1 1
+Dirt14 181 8 2 1 1
+DirtWall2 184 3 0
+Dirt2 170 3 2 4 1
+Puddle 173 7 0
+Grass7 170.41490173339844 5.909023761749268 0.1 1 1
+Puddle 171.23611450195312 5.753902912139893 0
+DirtWall2 156 -16 0
+DirtWall2 155 -16 0
+DirtWall2 153 -15 0
+DirtWall1 154 -16 0
+Dirt21 154 -16 2 1 1
+DirtWall1 150 -15 0
+DirtWall2 151 -15 0
+Dirt21 150 -15 2 1 1
+Dirt21 148 -14 2 1 1
+DirtWall2 152 -15 0
+DirtWall2 149 -14 0
+Dirt22 155 -16 2 13 1
+Dirt22 149 -14 2 1 1
+Sand 157 -3 0 9 5
+Dirt26 156 -3 2 1 1
+Dirt26 155 -5 2 1 1
+Sand 148 -4 0 9 9
+Nest1 152 0 0.05
+Dirt27 157 -3 2 9 1
+Dirt24 156 -4 2 1 1
+Dirt12 156 -5 2 1 1
+Dirt21 146 -13 2 1 1
+DirtWall1 146 -13 0
+Dirt12 155 -6 2 1 1
+Dirt28 149 -5 2 1 1
+Dirt11 148 -5 2 1 1
+Dirt27 150 -6 2 5 1
+DirtWall1 156 1 0
+DirtWall3 166 1 0
+DirtWall1 155 3 0
+Dirt21 156 1 2 1 1
+Dirt21 155 3 2 1 1
+Nest 148.96533203125 2.1826987266540527 0.05
+Nest 148.93434143066406 1.2209467887878418 0.05
+Nest 148.93434143066406 0.13509750366210938 0.05
+Nest 148.91883850097656 -1.0438232421875 0.05
+Nest 149.0892791748047 -1.9745512008666992 0.05
+Nest 149.96780395507812 -3.167529582977295 0.05
+Nest 150.92848205566406 -2.795238971710205 0.05
+Nest 151.95114135742188 -3.120993137359619 0.05
+Nest 153.94996643066406 -3.136505603790283 0.05
+Nest 153.09776306152344 -2.562556743621826 0.05
+Nest 150.3396759033203 -1.7714380025863647 0.05
+Nest 154.3063507080078 -1.7869504690170288 0.05
+Nest 151.92015075683594 -2.1282172203063965 0.05
+Nest 149.8903350830078 -0.6545652151107788 0.05
+Nest 149.82835388183594 0.7880622148513794 0.05
+Nest 159.4816131591797 -0.43739545345306396 0.05
+Nest 163.69619750976562 -0.01856839656829834 0.05
+BrokenEggs 150.52561950683594 -2.066169261932373 0.1
+BrokenEggs 149.20855712890625 -1.2905629873275757 0.1
+BrokenEggs 149.50296020507812 0.44679558277130127 0.1
+BrokenEggs 149.10009765625 1.9669839143753052 0.1
+BrokenEggs 152.07510375976562 -3.01240873336792 0.1
+BrokenEggs 154.10491943359375 -2.066169261932373 0.1
+BrokenEggs 160.20986938476562 -0.3908590078353882 0.1
+BrokenEggs 164.79632568359375 -0.08061683177947998 0.1
+DirtWall2 157 1 0
+DirtWall2 158 1 0
+DirtWall2 159 1 0
+DirtWall2 160 1 0
+DirtWall2 161 1 0
+DirtWall2 162 1 0
+DirtWall2 163 1 0
+DirtWall2 164 1 0
+DirtWall2 165 1 0
+Dirt22 157 1 2 9 1
+Dirt24 156 2 2 1 1
+Dirt 156 -6 2 1 1
+Dirt 148 -6 2 1 1
+Dirt11 149 -6 2 1 1
+DirtWall1 144 -12 0
+DirtWall1 143 -11 0
+DirtWall1 142 -10 0
+DirtWall1 141 -8 0
+DirtWall1 140 -5 0
+DirtWall1 139 -1 0
+Dirt24 142 -9 2 1 1
+Dirt24 141 -7 2 1 2
+Dirt21 144 -12 2 1 1
+Dirt21 143 -11 2 1 1
+Dirt21 142 -10 2 1 1
+Dirt21 141 -8 2 1 1
+Dirt21 140 -5 2 1 1
+Dirt21 139 -1 2 1 1
+Dirt22 147 -13 2 1 1
+Dirt22 145 -12 2 1 1
+DirtWall2 147 -13 0
+DirtWall1 148 -14 0
+DirtWall2 145 -12 0
+Grass 132 -12 0 14 23
+Grass 132 11 0 14 23
+Grass 105 19 0 27 31
+Dirt 144 -10 2 13 4
+Dirt 150 -14 2 7 4
+Dirt 148 -13 2 2 3
+Dirt 146 -12 2 2 2
+Dirt 144 -11 2 2 1
+Dirt 143 -10 2 1 2
+Dirt 142 -8 2 2 3
+Dirt 141 -5 2 3 4
+Dirt24 140 -4 2 1 3
+Dirt 144 -6 2 4 9
+Dirt24 139 0 2 1 11
+Dirt 140 -1 2 4 5
+DirtWall2 153 4 0
+Dirt25 148 -4 2 1 10
+Dirt 140 4 2 8 4
+DirtWall2 154 4 0
+DirtWall1 152 4 0
+Dirt1 152 4 2 1 1
+BigLogPackLiana 152 5 0
+DirtWall3 149 6 0
+DirtWall3 150 7 0
+DirtWall2 151 8 0
+Dirt23 149 6 2 1 1
+Dirt23 150 7 2 1 1
+DirtWall3 152 8 0
+Dirt3 152 8 2 1 1
+LianaRight 151 7 0
+LianaRight 151 6 0
+LianaRight 150.99000549316406 6.500720500946045 0
+Dirt16 148 6 2 1 1
+Dirt16 149 7 2 1 1
+Dirt2 151 8 2 1 1
+Dirt26 154 5 2 1 1
+Dirt26 155 6 2 1 1
+Dirt2 153 4 2 1 1
+Dirt12 155 5 2 1 1
+Dirt22 154 4 2 1 1
+Dirt17 155 4 2 1 1
+Dirt27 150 8 2 1 1
+Dirt 157 2 2 9 7
+Dirt24 156 7 2 1 1
+Dirt26 156 8 2 1 1
+Dirt 148 7 2 1 1
+Dirt26 157 9 2 1 1
+Dirt28 147 9 2 1 1
+Dirt27 148 8 2 2 1
+Dirt11 147 8 2 1 1
+Dirt25 146 10 2 1 14
+Dirt11 146 9 2 1 1
+Dirt 146 8 2 1 1
+Sand 147 5 0 12 19
+Dirt12 156 6 2 1 1
+Dirt12 158 9 2 1 1
+DirtWall3 147 24 0
+DirtWall3 148 25 0
+DirtWall1 157 24 0
+DirtWall1 156 25 0
+DirtWall2 149 26 0
+DirtWall2 150 26 0
+DirtWall2 151 26 0
+DirtWall2 152 26 0
+DirtWall2 153 26 0
+DirtWall2 154 26 0
+DirtWall2 155 26 0
+Sand 146 24 0 13 5
+Dirt 140 8 2 6 15
+Dirt24 139 11 2 1 11
+Dirt 144 3 2 4 1
+BigLog 147 12 0.1
+BigLog 148 10 0.1
+BigLog 148 13 0.1
+BigLog 149 11 0.1
+BigLog 147 15 0.1
+Dirt24 158 10 2 1 10
+Dirt23 147 24 2 1 1
+Dirt23 148 25 2 1 1
+Dirt21 156 25 2 1 1
+Dirt21 157 24 2 1 1
+Dirt26 158 20 2 1 1
+Dirt22 149 26 2 7 1
+DirtWall2 158 24 0
+Dirt17 156 3 2 1 1
+Dirt 156 4 2 1 2
+RockHole 176 -20 0.05 1 1
+RockHole 177 -20 0.05 1 1
+RockHole 178 -20 0.05 1 1
+RockHole 179 -20 0.05 1 1
+Rock 176 -26 0 1 1
+Rock 177 -24 0 1 1
+Rock 178 -25 0 1 1
+Rock 179 -26 0 1 1
+Dirt16 166 3 2 1 1
+Dirt16 169 8 2 1 1
+Dirt 140 27 2 18 8
+Dirt24 139 22 2 1 11
+Dirt24 139 33 2 1 11
+Dirt 140 35 2 18 8
+Grass 132 34 0 14 23
+Dirt 140 23 2 6 4
+Dirt16 146 24 2 1 1
+Dirt16 147 25 2 1 1
+Dirt16 148 26 2 1 1
+Dirt 146 25 2 1 2
+Dirt 147 26 2 1 1
+Dirt17 156 26 2 1 1
+Dirt17 157 25 2 1 1
+Dirt28 166 20 2 1 1
+Dirt27 159 20 2 7 1
+Dirt 159 9 2 7 11
+Dirt22 158 24 2 9 1
+Dirt23 167 24 2 1 1
+DirtWall3 167 24 0
+DirtWall2 159 24 0
+DirtWall2 160 24 0
+DirtWall2 161 24 0
+DirtWall2 162 24 0
+DirtWall2 163 24 0
+DirtWall2 164 24 0
+DirtWall2 165 24 0
+DirtWall2 166 24 0
+Dirt 158 27 2 18 8
+Dirt 158 25 2 9 2
+Dirt 157 26 2 1 1
+Dirt 158 35 2 18 8
+Dirt 176 35 2 18 8
+Dirt 176 27 2 18 8
+DirtWall3 168 25 0
+Dirt23 168 25 2 1 1
+DirtWall2 169 26 0
+DirtWall2 171 26 0
+Dirt 166 4 2 3 5
+Dirt22 169 26 2 18 1
+Dirt24 189 6 2 1 18
+DirtWall1 188 24 0
+DirtWall1 187 25 0
+Dirt21 188 24 2 1 1
+Dirt21 187 25 2 1 1
+DirtWall2 173 26 0
+DirtWall2 175 26 0
+DirtWall2 177 26 0
+DirtWall2 178 26 0
+DirtWall2 180 26 0
+DirtWall2 182 26 0
+DirtWall2 184 26 0
+DirtWall2 186 26 0
+Dirt17 188 25 2 1 1
+Dirt17 189 24 2 1 1
+Dirt 189 25 2 1 1
+Dirt26 186 4 2 1 1
+Dirt2 182 3 2 4 1
+Dirt22 186 3 2 6 1
+Dirt26 187 5 2 1 1
+Dirt27 188 5 2 1 1
+Dirt25 166 14 2 1 6
+DirtWall3 185 8 0
+DirtWall2 182 8 0
+DirtWall2 183 8 0
+DirtWall2 184 8 0
+Dirt12 187 4 2 1 1
+Dirt12 189 5 2 1 1
+Dirt28 168 12 2 1 1
+Dirt28 167 13 2 1 1
+Dirt11 168 11 2 1 1
+Dirt11 166 13 2 1 1
+Dirt 166 9 2 2 3
+Dirt11 167 12 2 1 1
+Dirt 166 12 2 1 1
+Dirt28 185 11 2 1 1
+Dirt25 185 9 2 1 2
+Dirt23 185 8 2 1 1
+Dirt27 169 11 2 16 1
+Dirt22 182 8 2 3 1
+Dirt 168 9 2 17 2
+Sand 159 17 0 40 21
+Dirt 190 4 2 3 15
+Dirt 190 19 2 3 8
+Dirt 188 26 2 2 1
+Dirt17 187 26 2 1 1
+Dirt16 167 25 2 1 1
+Dirt16 168 26 2 1 1
+Dirt 167 26 2 1 1
+Dirt 188 4 2 2 1
+Grass 186 -23 0 18 7
+Grass 181 -23 0 5 5
+DirtWall2 193 -7 0
+DirtWall2 194 -7 0
+DirtWall2 195 -7 0
+DirtWall2 196 -7 0
+DirtWall2 197 -7 0
+DirtWall2 198 -7 0
+DirtWall2 199 -7 0
+DirtWall2 200 -7 0
+DirtWall2 201 -7 0
+DirtWall2 202 -7 0
+DirtWall1 206 -16 0
+Dirt27 187 -12 2 13 1
+Dirt28 200 -12 2 1 1
+Dirt28 202 -13 2 1 1
+Dirt27 201 -13 2 1 1
+Dirt11 200 -13 2 1 1
+Dirt 195 -15 2 5 3
+Dirt 200 -15 2 2 2
+DirtWall2 207 -16 0
+DirtWall2 208 -16 0
+DirtWall2 209 -16 0
+DirtWall2 211 -16 0
+DirtWall2 212 -16 0
+DirtWall2 213 -16 0
+DirtWall2 214 -16 0
+DirtWall2 215 -16 0
+DirtWall2 216 -16 0
+DirtWall2 217 -16 0
+DirtWall2 218 -16 0
+DirtWall2 219 -16 0
+DirtWall2 220 -16 0
+DirtWall2 221 -16 0
+Dirt21 206 -16 2 1 1
+DirtWall2 204 -8 0
+DirtWall1 203 -8 0
+DirtWall1 205 -10 0
+Dirt21 205 -10 2 1 1
+Dirt21 203 -8 2 1 1
+Dirt22 192 -7 2 11 1
+Dirt 193 -6 2 18 8
+Dirt 193 2 2 18 8
+Dirt 193 10 2 18 8
+Dirt 193 18 2 18 8
+Dirt 194 26 2 18 8
+Dirt 194 34 2 18 8
+Dirt 193 26 2 1 1
+Dirt 211 -6 2 18 8
+Dirt 211 2 2 18 8
+Dirt 207 -15 2 16 9
+Dirt22 207 -16 2 15 1
+DirtWall3 222 -16 0
+Dirt23 222 -16 2 1 1
+Sand 193 -15 0 27 14
+Dirt22 204 -8 2 1 1
+Dirt24 205 -9 2 1 1
+Dirt 204 -7 2 3 1
+Dirt 206 -9 2 1 2
+Dirt17 203 -7 2 1 1
+Dirt17 205 -8 2 1 1
+Dirt17 206 -10 2 1 1
+Dirt24 206 -15 2 1 5
+DirtWall2 210 -16 0
+Cave 179 26 0
+Cave 181 26 0
+Cave 183 26 0
+Cave 185 26 0
+Cave 174 26 0
+Cave 176 26 0
+Cave 172 26 0
+Cave 170 26 0
+WaterOuterTopLeft 184 -40 0 1 1
+WaterOuterTopRight 182 -44 0 1 1
+WaterOuterBottomLeft 184 -41 0 1 1
+WaterBottomLeft 182 -45 0 1 1
+WaterTopRight 185 -41 0 1 1
+WaterOuterTopRight 183 -45 0 1 1
+WaterTopRight 186 -42 0 1 1
+WaterOuterBottomLeft 185 -42 0 1 1
+WaterLeft 183 -51 0 1 6
+WaterTop 86 -36 0 29 1
+Water 88 -43 0 32 7
+WaterBottom 86 -44 0 48 1
+WaterBottom 185 -40 0 1 1
+DirtWall2 185.9948272705078 -40.59475326538086 0
+Water 183 -44 0 1 1
+WaterRight 187 -52 0 1 8
+WaterTopRight 187 -44 0 1 1
+Water 184 -52 0 3 8
+WaterOuterBottomLeft 186 -44 0 1 1
+WaterRight 186 -43 0 1 1
+Water 184 -44 0 2 2
+Water 184 -42 0 1 1
+WaterTop 173 -36 0 19 1
+DirtWall1 186 -41 0
+Dirt1 186 -41 2 1 1
+WaterBottom 188 -40 0 2 1
+WaterOuterTopRight 190 -40 0 1 1
+WaterLeft 190 -41 0 1 1
+WaterBottomLeft 190 -42 0 1 1
+WaterOuterTopRight 191 -42 0 1 1
+WaterTopRight 192 -36 0 1 1
+Water 184 -39 0 8 3
+WaterOuterBottomLeft 192 -37 0 1 1
+WaterTopRight 193 -37 0 1 1
+WaterRight 193 -38 0 1 1
+WaterOuterBottomLeft 193 -39 0 1 1
+WaterTopRight 194 -39 0 1 1
+WaterRight 194 -40 0 1 1
+WaterOuterBottomLeft 194 -41 0 1 1
+WaterTopRight 195 -41 0 1 1
+WaterRight 195 -46 0 1 5
+Water 192 -47 0 3 6
+Water 191 -41 0 3 2
+Water 192 -39 0 1 2
+DirtWall1 182 -26 0
+DirtWall1 183 -29 0
+DirtWall1 184 -31 0
+DirtWall1 185 -32 0
+DirtWall1 187 -33 0
+DirtWall1 190 -34 0
+DirtWall3 194 -34 0
+DirtWall3 197 -33 0
+DirtWall3 199 -32 0
+DirtWall3 200 -30 0
+DirtWall3 201 -25 0
+DirtWall3 202 -19 0
+DirtWall2 198 -32 0
+DirtWall2 189 -33 0
+DirtWall2 188 -33 0
+DirtWall2 186 -32 0
+Dirt22 188 -33 2 2 1
+Dirt23 194 -34 2 1 1
+Dirt23 202 -19 2 1 1
+Dirt25 202 -18 2 1 5
+Dirt23 201 -25 2 1 1
+Dirt23 200 -30 2 1 1
+Dirt23 199 -32 2 1 1
+Dirt23 197 -33 2 1 1
+Dirt21 182 -26 2 1 1
+Dirt21 183 -29 2 1 1
+Dirt21 184 -31 2 1 1
+Dirt21 185 -32 2 1 1
+Dirt21 187 -33 2 1 1
+Dirt21 190 -34 2 1 1
+Dirt22 195 -33 2 2 1
+Dirt22 198 -32 2 1 1
+Dirt24 182 -25 2 1 2
+Dirt24 183 -28 2 1 2
+Dirt24 184 -30 2 1 1
+Dirt25 201 -24 2 1 5
+Dirt25 200 -29 2 1 4
+Dirt22 186 -32 2 1 1
+Dirt 190 -24 2 5 9
+Dirt 185 -24 2 5 9
+Dirt17 181 -21 2 1 1
+Dirt17 182 -23 2 1 1
+Dirt17 183 -26 2 1 1
+Dirt17 184 -29 2 1 1
+Dirt17 185 -31 2 1 1
+Dirt17 187 -32 2 1 1
+Dirt 190 -33 2 5 9
+Dirt16 197 -32 2 1 1
+Dirt16 200 -25 2 1 1
+Dirt16 201 -19 2 1 1
+Dirt 195 -18 2 7 3
+Dirt 195 -32 2 2 14
+Dirt 185 -30 2 5 6
+Dirt 197 -31 2 2 13
+Dirt 199 -24 2 2 6
+Dirt 199 -30 2 1 6
+Dirt 188 -32 2 2 2
+Dirt 186 -31 2 2 1
+Dirt 182 -22 2 3 2
+Dirt 183 -25 2 2 3
+Dirt 184 -28 2 1 3
+Dirt28 189 -41 2 1 1
+Dirt25 189 -42 2 1 1
+Dirt11 189 -43 2 1 1
+Dirt28 190 -43 2 1 1
+Dirt 188 -42 2 1 1
+Dirt27 187 -41 2 2 1
+Dirt24 187 -42 2 1 1
+Dirt21 187 -43 2 1 1
+DirtWall1 187 -43 0
+Dirt17 188 -43 2 1 1
+Dirt25 190 -51 2 1 8
+Dirt 189 -51 2 1 8
+Dirt24 188 -51 2 1 8
+WaterOuterBottomLeft 195 -47 0 1 1
+WaterOuterBottomLeft 196 -48 0 1 1
+WaterOuterBottomLeft 197 -49 0 1 1
+WaterTopRight 199 -49 0 1 1
+WaterOuterBottomLeft 199 -50 0 1 1
+WaterTop 198 -49 0 1 1
+DirtWall2 195 -33 0
+Cave 196 -33 0
+Grass 193 -36 0 3 1
+Grass 194 -38 0 2 2
+Grass 195 -40 0 1 2
+Grass 196 -45 0 17 10
+WaterLeft 191 -47 0 1 5
+WaterBottomLeft 191 -48 0 1 1
+WaterOuterTopRight 192 -48 0 1 1
+WaterBottomLeft 192 -50 0 1 1
+WaterBottomLeft 193 -51 0 1 1
+WaterOuterTopRight 193 -50 0 1 1
+WaterBottomLeft 194 -52 0 1 1
+WaterOuterTopRight 194 -51 0 1 1
+WaterBottom 195 -52 0 1 1
+WaterBottomLeft 196 -53 0 1 1
+WaterOuterTopRight 196 -52 0 1 1
+WaterBottom 197 -53 0 1 1
+WaterBottomLeft 198 -54 0 1 1
+WaterOuterTopRight 198 -53 0 1 1
+WaterLeft 192 -49 0 1 1
+Water 193 -48 0 3 1
+Water 193 -49 0 4 1
+Water 194 -50 0 5 1
+Water 197 -52 0 2 1
+Water 195 -51 0 4 1
+DirtWall1 191 -35 0
+DirtWall3 193 -35 0
+DirtWall2 192 -35 0
+Dirt17 191 -34 2 1 1
+Dirt16 193 -34 2 1 1
+Dirt 192 -34 2 1 1
+Grass 198 -48 0 2 3
+Grass 186 -41 0 1 1
+Grass 187 -43 0 1 1
+Grass 197 -47 0 1 2
+Grass 196 -46 0 1 1
+Grass 193 -52 0 1 1
+Grass 192 -52 0 1 2
+Grass 192 -54 0 4 2
+Grass 196 -54 0 2 1
+WaterLeft 183 -57 0 1 6
+WaterRight 187 -57 0 1 5
+Water 184 -57 0 3 5
+Dirt24 188 -59 2 1 8
+Dirt28 194 -55 2 1 1
+Dirt28 196 -56 2 1 1
+Dirt28 192 -54 2 1 1
+Grass 188 -54 0 4 6
+Dirt25 191 -53 2 1 1
+Dirt28 191 -52 2 1 1
+Dirt27 193 -55 2 1 1
+Dirt27 195 -56 2 1 1
+Dirt27 197 -57 2 17 1
+Grass 190 -56 0 29 2
+WaterRight 187 -62 0 1 5
+Water 184 -62 0 3 5
+WaterLeft 183 -62 0 1 5
+Dirt24 188 -67 2 1 8
+Dirt 189 -68 2 19 11
+Dirt 208 -68 2 19 11
+Dirt27 214 -57 2 17 1
+WaterTop 200 -50 0 15 1
+WaterOuterBottomRight 215 -50 0 1 1
+WaterTopLeft 215 -49 0 1 1
+WaterTop 216 -49 0 1 1
+WaterOuterBottomRight 217 -49 0 1 1
+WaterTopLeft 217 -48 0 1 1
+WaterOuterBottomRight 218 -48 0 1 1
+WaterTopLeft 218 -47 0 1 1
+WaterOuterBottomRight 219 -47 0 1 1
+WaterLeft 219 -46 0 1 19
+Grass 200 -49 0 13 4
+Grass 213 -45 0 6 10
+Grass 213 -48 0 4 3
+Grass 213 -49 0 2 1
+Grass 217 -46 0 2 1
+Grass 217 -47 0 1 1
+Water 199 -53 0 11 3
+WaterBottomRight 216 -54 0 1 1
+WaterBottom 199 -54 0 17 1
+WaterOuterTopLeft 216 -53 0 1 1
+WaterBottom 217 -53 0 1 1
+WaterBottomRight 218 -53 0 1 1
+WaterOuterTopLeft 218 -52 0 1 1
+WaterBottom 219 -52 0 1 1
+WaterOuterTopLeft 220 -51 0 1 1
+WaterBottomRight 220 -52 0 1 1
+WaterBottomRight 221 -51 0 1 1
+WaterBottomRight 222 -50 0 1 1
+WaterOuterTopLeft 221 -50 0 1 1
+WaterRight 222 -49 0 1 1
+WaterOuterTopLeft 222 -48 0 1 1
+WaterBottomRight 223 -48 0 1 1
+WaterRight 223 -47 0 1 12
+Water 220 -46 0 3 11
+WaterTopLeft 219 -27 0 1 1
+WaterOuterBottomRight 220 -27 0 1 1
+WaterLeft 220 -26 0 1 3
+WaterTopLeft 220 -23 0 1 1
+WaterOuterBottomRight 221 -23 0 1 1
+WaterLeft 221 -22 0 1 2
+WaterTopLeft 221 -20 0 1 1
+WaterOuterBottomRight 222 -20 0 1 1
+WaterTopLeft 222 -19 0 1 1
+WaterOuterBottomRight 223 -19 0 1 1
+Grass 193 -35 0 11 6
+Grass 204 -35 0 15 8
+Grass 204 -27 0 15 8
+Grass 204 -19 0 15 4
+Grass 219 -26 0 1 4
+Rock 20 0 0 1 1
+Rock 19 1 0 1 1
+Rock 20 2 0 1 1
+Rock 21 1 0 1 1
+LogVertical 98 -19 0
+Dirt22 192 -35 2 1 1
+Dirt23 193 -35 2 1 1
+Dirt21 191 -35 2 1 1
+Water 210 -53 0 6 3
+Water 216 -52 0 2 3
+Water 218 -51 0 2 3
+Water 220 -49 0 2 3
+Water 220 -50 0 1 1
+Water 219 -48 0 1 1
+Water 222 -47 0 1 1
+Water 220 -35 0 3 8
+WaterRight 223 -35 0 1 6
+WaterOuterTopLeft 223 -29 0 1 1
+WaterBottomRight 224 -29 0 1 1
+WaterRight 224 -28 0 1 3
+WaterOuterTopLeft 224 -25 0 1 1
+WaterBottomRight 225 -25 0 1 1
+WaterRight 225 -25 0 1 2
+WaterOuterTopLeft 225 -23 0 1 1
+WaterBottomRight 226 -23 0 1 1
+WaterRight 226 -22 0 1 1
+WaterOuterTopLeft 226 -21 0 1 1
+WaterBottomRight 227 -21 0 1 1
+WaterRight 227 -20 0 1 2
+WaterOuterTopLeft 227 -18 0 1 1
+WaterBottomRight 228 -18 0 1 1
+Water 221 -27 0 3 4
+Water 224 -20 0 3 4
+Water 227 -17 0 1 1
+Water 222 -23 0 3 3
+Water 223 -20 0 1 1
+Water 224 -24 0 1 1
+Water 225 -22 0 1 2
+Grass 219 -55 0 5 1
+Grass 221 -54 0 3 3
+Grass 219 -54 0 2 2
+Grass 217 -54 0 2 1
+Grass 222 -51 0 2 1
+Grass 223 -50 0 1 2
+Grass 224 -55 0 17 10
+Grass 224 -45 0 17 10
+Grass 224 -35 0 17 6
+Grass 229 -29 0 17 6
+Grass 229 -23 0 17 6
+Water 223 -28 0 1 1
+Grass 219 -22 0 2 7
+Grass 221 -18 0 2 7
+Grass 221 -19 0 1 1
+Water 224 -16 0 4 6
+WaterLeft 223 -18 0 1 7
+Grass 225 -29 0 4 4
+Grass 228 -25 0 1 7
+Grass 226 -25 0 2 2
+Grass 227 -23 0 1 2
+Grass 229 -17 0 17 6
+WaterRight 228 -17 0 1 6
+WaterTopRight 197 -48 0 1 1
+WaterTopRight 196 -47 0 1 1
+Dirt 189 -57 2 2 6
+Dirt 191 -57 2 4 2
+Dirt 191 -55 2 2 1
+Dirt 195 -57 2 2 1
+Dirt 191 -54 2 1 1
+Dirt 227 -68 2 19 11
+Dirt27 231 -57 2 17 1
+BoxColliderScalable -3 6 0 20 4
+BoxColliderScalable 17 3 0 5 7
+BoxColliderScalable -3 -8 0 21 5
+Dirt26 18 -2 2 1 1
+Dirt24 18 -5 2 1 3
+BoxColliderScalable -7 -6 0 4 14
+BoxColliderScalable 22 5 0 3 12
+Dirt25 21 -13 2 1 11
+Dirt28 22 -14 2 1 1
+Dirt25 22 -17 2 1 3
+Dirt28 23 -18 2 1 1
+Dirt27 24 -19 2 2 1
+Dirt28 26 -19 2 1 1
+Dirt27 27 -20 2 3 1
+Dirt28 30 -20 2 1 1
+Dirt27 49 -22 2 14 1
+Dirt28 48 -21 2 1 1
+Dirt28 45 -18 2 1 1
+Dirt28 46 -20 2 1 1
+Dirt26 42 -15 2 1 1
+Dirt26 41 -17 2 1 1
+Dirt26 40 -18 2 1 1
+Dirt26 38 -19 2 1 1
+Dirt26 35 -20 2 1 1
+Dirt27 31 -21 2 4 1
+Dirt 22 -18 2 1 1
+Dirt 21 -18 2 1 5
+Dirt 21 -21 2 3 3
+Dirt 24 -20 2 3 1
+Dirt 24 -21 2 7 1
+Dirt 21 -23 2 21 2
+Dirt 42 -23 2 7 2
+Dirt 49 -23 2 15 1
+Dirt28 63 -22 2 1 1
+Dirt 42 -19 2 2 3
+Dirt 43 -16 2 1 2
+Dirt27 36 -20 2 2 1
+Dirt 38 -21 2 8 2
+Dirt 35 -21 2 3 1
+Dirt 44 -19 2 1 2
+Dirt 41 -19 2 1 2
+Dirt 40 -19 2 1 1
+Dirt25 45 -19 2 1 1
+Dirt 46 -21 2 1 1
+Dirt27 47 -21 2 1 1
+Dirt27 39 -19 2 1 1
+LogHorizontal 27 -5.36384916305542 0e
+LogHorizontal 28.253162384033203 -8.078471183776855 0
+Campfire 28.758075714111328 -6.871131896972656 0.05 1 1
+LogVertical 30.601970672607422 -7.088835716247559 0
+Dirt28 44 -13 2 1 1
+Dirt24 43 -14 2 1 1
+Dirt25 44 -17 2 1 4
+BoxColliderScalable 17 -20 0 25 7
+Dirt26 43 -13 2 1 1
+Dirt24 42 -16 2 1 1
+Grass 22 -43 0 22 31
+BoxColliderScalable 39 -9 0 6 23
+BoxColliderScalable 52 -8 0 16 4
+Tree 27.227649688720703 -5.0461835861206055 0
+BoxColliderScalable 42 -20 0 4 9
+BoxColliderScalable 46 -21 0 18 5
+BoxColliderScalable 64 -22 0 5 11
+BoxColliderScalable 69 -21 0 15 4
+BoxColliderScalable 62 -4 0 8 4
+BoxColliderScalable 70 -2 0 12 4
+BoxColliderScalable 82 -4 0 8 4
+BoxColliderScalable 85 -12 0 3 8
+BoxColliderScalable 84 -21 0 5 6
+BoxColliderScalable 98 -31 0 7 10
+BoxColliderScalable 89 -23 0 9 4
+Dirt25 88 -19 2 1 2
+Dirt28 88 -17 2 1 1
+Dirt27 85 -17 2 3 1
+BoxColliderScalable 96 -33 0 8 2
+BoxColliderScalable 95 -35 0 8 2
+BoxColliderScalable 88 -10 0 29 4
+BoxColliderScalable 114 -23 0 4 13
+Water -12 -11 0 8 18
+BoxColliderScalable 110 -31 0 17 8
+BoxColliderScalable 127 -31 0 17 8
+Dirt23 166 1 2 1 1
+BoxColliderScalable 144 -31 0 17 8
+DirtWall3 174 -23 0
+Grass 169 -23 0 7 5
+BoxColliderScalable 167 -22 0 9 12
+BoxColliderScalable 180 -35 0 9 12
+BoxColliderScalable 180 -23 0 9 13
+BoxColliderScalable 156 -13 0 11 12
+Dirt22 151 -15 2 3 1
+Dirt 154 -15 2 3 1
+BoxColliderScalable 147 -8 0 9 4
+BoxColliderScalable 156 1 0 11 9
+BoxColliderScalable 167 -25 0 8 3
+BoxColliderScalable 161 -31 0 12 3
+BoxColliderScalable 166 -28 0 8 3
+BoxColliderScalable 145 8 0 8 2
+BoxColliderScalable 144 -4 0 5 12
+MonkeySpawner1 54 -9 0 1 1
+MonkeySpawner1 57 -9 0 1 1
+MonkeySpawner2 71 -3 0 1 1
+MonkeySpawner2 74 -3 0 1 1
+MonkeySpawner2 77 -3 0 1 1
+MonkeySpawner2 80 -3 0 1 1
+MonkeySpawner1 100 -11 0 1 1
+MonkeySpawner1 101 -11 0 1 1
+MonkeySpawner1 102 -11 0 1 1
+MonkeySpawner1 103 -11 0 1 1
+MonkeySpawner1 104 -11 0 1 1
+MonkeySpawner3 168 2 0.05 1 1
+MonkeySpawner3 170 2 0.05 1 1
+MonkeySpawner3 172 2 0.05 1 1
+MonkeySpawner3 183 2 0.05 1 1
+MonkeySpawner3 185 2 0.05 1 1
+MonkeySpawner3 187 2 0.05 1 1
+MonkeySpawner2 170 25 0.05 1 1
+MonkeySpawner2 172 25 0.05 1 1
+MonkeySpawner2 174 25 0.05 1 1
+MonkeySpawner2 176 25 0.05 1 1
+MonkeySpawner2 179 25 0.05 1 1
+MonkeySpawner2 181 25 0.05 1 1
+MonkeySpawner2 183 25 0.05 1 1
+MonkeySpawner2 185 25 0.05 1 1
+CampTop2 182 15 0.05 2 1
+CampTop2 182 17 0.05 2 1
+CampTop2 182 19 0.05 2 1
+CampTop2 177 15 0.05 2 1
+CampTop2 177 17 0.05 2 1
+CampTop2 177 19 0.05 2 1
+CampTop2 174 15 0.05 2 1
+CampTop2 174 17 0.05 2 1
+CampTop2 174 19 0.05 2 1
+CampTop2 169 15 0.05 2 1
+CampTop2 169 17 0.05 2 1
+CampTop2 169 19 0.05 2 1
+CampTop2 169 21 0.05 2 1
+CampTop2 174 21 0.05 2 1
+CampTop2 177 21 0.05 2 1
+CampTop2 182 21 0.05 2 1
+Nest 168.9560089111328 15.074907302856445 0.1
+Nest 168.97149658203125 17.10699462890625 0.1
+Nest 168.9560089111328 19.123571395874023 0.1
+Nest 169.0024871826172 21.124635696411133 0.1
+Nest 175.10743713378906 21.171173095703125 0.1
+Nest 175.09194946289062 19.170108795166016 0.1
+Nest 175.0454559326172 17.09148406982422 0.1
+Nest 175.01446533203125 15.121443748474121 0.1
+Nest 176.997802734375 21.15566062927246 0.1
+Nest 177.02879333496094 19.15459632873535 0.1
+Nest 176.93582153320312 17.138019561767578 0.1
+Nest 177.0133056640625 15.105931282043457 0.1
+Nest 183.040771484375 15.105931282043457 0.1
+Nest 183.08724975585938 17.06045913696289 0.1
+Nest 183.08724975585938 19.092548370361328 0.1
+Nest 183.08724975585938 21.093612670898438 0.1
+CampTop1 169 14 0.05
+CampTop1 170 14 0.05
+CampTop1 169 16 0.05
+CampTop1 170 16 0.05
+CampTop1 169 18 0.05
+CampTop1 170 18 0.05
+CampTop1 169 20 0.05
+CampTop1 170 20 0.05
+CampTop1 174 20 0.05
+CampTop1 175 20 0.05
+CampTop1 174 18 0.05
+CampTop1 175 18 0.05
+CampTop1 174 16 0.05
+CampTop1 175 16 0.05
+CampTop1 174 14 0.05
+CampTop1 175 14 0.05
+CampTop1 178 20 0.05
+CampTop1 177 20 0.05
+CampTop1 177 18 0.05
+CampTop1 178 18 0.05
+CampTop1 178 16 0.05
+CampTop1 177 16 0.05
+CampTop1 177 14 0.05
+CampTop1 178 14 0.05
+CampTop1 182 14 0.05
+CampTop1 183 14 0.05
+CampTop1 183 16 0.05
+CampTop1 182 16 0.05
+CampTop1 182 18 0.05
+CampTop1 183 18 0.05
+CampTop1 183 20 0.05
+CampTop1 182 20 0.05
+BoxColliderScalable 158 10 0 9 12
+BoxColliderScalable 138 10 0 9 16
+BoxColliderScalable 144 26 0 13 6
+BoxColliderScalable 157 24 0 11 5
+BoxColliderScalable 189 7 0 9 22
+BoxColliderScalable 168 26 0 21 5
+BoxColliderScalable 167 8 0 19 5
+BoxColliderScalable 167 3 0 8 2
+BoxColliderScalable 167 5 0 3 3
+BoxColliderScalable 181 3 0 11 2
+BoxColliderScalable 192 -4 0 6 9
+BoxColliderScalable 186 -7 0 26 2
+BoxColliderScalable 206 -33 0 7 26
+BoxColliderScalable 201 -28 0 2 17
+BoxColliderScalable 189 -14 0 12 4
+BoxColliderScalable 196 -30 0 5 4
+Dirt16 199 -31 2 1 1
+BoxColliderScalable 189 -35 0 5 4
+BoxColliderScalable 194 -34 0 1 1
+BoxColliderScalable 213 -33 0 10 4
+BoxColliderScalable 191 -51 0 5 11
+BoxColliderScalable 189 -40 0 6 2
+BoxColliderScalable 188 -38 0 6 3
+BoxColliderScalable 196 -52 0 2 6
+BoxColliderScalable 218 -47 0 1 1
+BoxColliderScalable 219 -48 0 6 15
+BoxColliderScalable 198 -53 0 2 5
+BoxColliderScalable 200 -53 0 16 4
+BoxColliderScalable 215 -49 0 4 2
+Tree 205.8478546142578 -48.92395782470703 0
+Tree 198.98997497558594 -48.97886276245117 0
+Tree 215.4849395751953 -44.353553771972656 0
+Tree 215.7018585205078 -36.78423309326172 0
+Tree 192.50164794921875 -39.90493392944336 0
+BoxColliderScalable 186 -8 0 1 1
+BoxColliderScalable 149 -4 0 1 1
+BoxColliderScalable 155 -4 0 1 1
+BoxColliderScalable 152 4 0 4 2
+BoxColliderScalable 149 6 0 1 2
+BoxColliderScalable 150 7 0 1 1
+BoxColliderScalable 154 6 0 2 1
+BoxColliderScalable 155 7 0 1 1
+BindWeed 45 -12 0.5 1 2
+BindWeed 45 -11 0.5 1 2
+BindWeed 85 -16 0.5 1 2
+BindWeed 85 -15 0.5 1 2
+BindWeed 85 -14 0.5 1 2
+BigLog 176 -19 0.1
+BigLog 177 -19 0.1
+BigLog 178 -19 0.1
+BigLog 179 -19 0.1
+BindWeed 186 11 0.05 1 2
+BindWeed 187 11 0.05 1 2
+BindWeed 188 11 0.05 1 2
+BindWeed 166 22 0.05 1 2
+BindWeed 166 23 0.05 1 2
+RiverSoundPrefab -8 1 -0.05 1 1
+RiverSoundPrefab 116 -41 -0.05 1 1
+RiverSoundPrefab 158 -42 -0.05 1 1
+RiverSoundPrefab 194 -43 -0.05 1 1
+BoxColliderScalable 147 25 0 2 1
+BoxColliderScalable 147 24 0 1 1
+BoxColliderScalable 156 25 0 1 1
+BoxColliderScalable 168 25 0 1 1
+BoxColliderScalable 188 24 0 1 1
+BoxColliderScalable 187 25 0 2 1
+BoxColliderScalable 167 13 0 2 1
+BoxColliderScalable 167 14 0 1 1
+BoxColliderScalable 187 5 0 4 2
+BoxColliderScalable 186 5 0 1 1
+BoxColliderScalable 205 -10 0 1 3
+BoxColliderScalable 203 -8 0 2 1
+BoxColliderScalable 157 10 0 1 1
+BigLog 174 -3 0.1 1 3
+BigLog 181 -3 0.1 1 3
+BigLog 181 -10 0.1 1 3
+Rock 170 -2 0
+Rock 170 -1 0
+Rock 169 -3 0
+Grass -30 6 0 17 13
+Grass -30 -7 0 17 13
+Grass -30 -20 0 17 13
+Dirt25 21 18 2 1 6
+Grass 22 19 0 21 5
+Grass 43 19 0 21 5
+Dirt 19 19 2 1 2
+Tree 73 -10 0
+LogHorizontal 79 -8 0.1 2 1
+LogHorizontal 73 -13 0.1 2 1
+LogVertical 71 -8 0 1 2
+BattleManager 0.25 1.25 0 1 1
+DirtWall3 87 0 0
+DirtWall3 86 -1 0
+Grass 86 -50 0 35 6
+Grass 121 -50 0 35 6
+Grass 156 -50 0 19 6
+Grass 175 -51 0 6 7
+Grass 181 -53 0 2 8
+Grass 181 -45 0 1 1
+CampTop1 147 19 0
+CampTop1 148 19 0
+CampTop1 149 19 0
+CampTop2 147 19 1 4 3
+CampTop1 150 19 0
+LifeFlower 88.05644989013672 -11.884260177612305 0
+FireFlower 102.97920227050781 -34.38274002075195 0
+BigLog 116 -35 0.1 1 3
+DryPlant 168 -35 0
+DryPlant 168 -34 0
+DryPlant 168 -33 0
+DryPlant 168 -32 0
+BigLog 110 -33 0.1 1 3
+BigLog 140 -35 0.1 1 3
+BigLog 149 -35 0.1 1 3
+BigLog 161 -35 0.1 1 3
+LogVertical 10 1 0 1 2
+LogVertical 3 3 0 1 2
+BoxColliderScalable 18 -13 0 7 13
+DirtWall2 -2 10 0
+DirtWall1 -3 10 0
+DirtWall2 20 3 0
+DirtWall2 18 10 0
+Dirt27 19 -2 2 2 1
+BoxColliderScalable 45 -9 0 7 6
+Tree 31.62777328491211 -3.5934927463531494 0
+LifeFlower 34.87936019897461 -3.974487543106079 0
+BoxColliderScalable 25 9 0 14 5
+Dirt22 -2 10 2 21 1
+DirtWall2 -2 10 0 22 2
+Dirt24 19 4 2 1 6
+Dirt 20 4 2 1 17
+DecoTree -3.374967098236084 6.992162227630615 0 24 6
+Bush -3.482987880706787 5.815343856811523 0 24 2
+DecoTree -5.659366607666016 5.919467926025391 0 24 6
+DecoTree -4.528435230255127 8.10539722442627 0 24 6
+Bush -2.365762233734131 6.023875713348389 0 24 2
+Bush 16.752422332763672 4.68983268737793 0 2 2
+Bush -2.1356961727142334 7.191793441772461 0 24 2
+DecoTree -5.827111721038818 -4.416390419006348 0 24 6
+DecoTree -3.061736583709717 -5.688385009765625 0 18 6
+DecoTree -5.270709037780762 -7.363694190979004 0 18 6
+Bush -3.1297857761383057 -3.0571823120117188 0 24 2
+Bush -2.0706839561462402 -2.864773988723755 0 24 2
+Bush -2.9494125843048096 -4.762024402618408 0 18 2
+Bush 13.891168594360352 -3.921539783477783 0 2 2
+Bush 6.482975959777832 -5.3641676902771 0 2 2
+DecoTree 20.661537170410156 8.574870109558105 0 102 6
+DecoTree 23.232624053955078 10.820636749267578 0 102 6
+DecoTree 19.855955123901367 13.086162567138672 0 102 6
+DecoTree 22.876943588256836 15.071714401245117 0 102 6
+TreeStatic 20.242828369140625 17.2278995513916 0 114 6
+Bush 22.06513023376465 4.6794047355651855 0 2 2
+Bush 25.830364227294922 8.650508880615234 0 14 2
+Bush 24.730236053466797 8.929727554321289 0 14 2
+DecoTree 36.12594985961914 6.848930358886719 0 102 6
+DecoTree 38.456912994384766 4.971962928771973 0 102 6
+Bush 24.761444091796875 10.195433616638184 0 2 2
+Bush 27.984359741210938 10.319530487060547 0 2 2
+Bush 33.345558166503906 10.319530487060547 0 2 2
+DecoTree 36.141456604003906 2.93794584274292 0 24 6
+CampTop2 36 5 2 1 1
+CampTop2 34 5 2 1 1
+CampTop2 32 5 2 1 1
+DecoTree 39.405303955078125 1.244584560394287 0 18 6
+DecoTree 36.02126693725586 -0.7892496585845947 0 18 6
+DecoTree 38.453948974609375 -2.786247730255127 0 12 6
+DecoTree 36.005775451660156 -5.277490615844727 0 18 6
+DecoTree 39.785621643066406 -6.721047401428223 0 12 6
+DecoTree 36.37677001953125 -9.06337833404541 0 18 6
+Bush 38.51504898071289 -9.218499183654785 0 14 2
+DecoTree 20.31239891052246 -16.057636260986328 0 24 6
+DecoTree 23.392736434936523 -17.221044540405273 0 18 6
+DecoTree 26.460704803466797 -18.880842208862305 0 12 6
+Bush 39.56068801879883 -8.95738410949707 0 12 2
+Bush 50.54649353027344 -8.305875778198242 0 2 2
+DecoTree 58.2724723815918 -8.188879013061523 0 12 6
+DecoTree 46.01198196411133 -18.878318786621094 0 24 6
+DecoTree 61.273250579833984 -13.578458786010742 0 6 6
+DecoTree 65.5653076171875 -13.764604568481445 0 6 6
+DecoTree 63.21009826660156 -16.229354858398438 0 6 6
+DecoTree 50.295005798339844 -21.076562881469727 0 30 6
+DecoTree 47.669254302978516 -19.727008819580078 0 36 6
+DecoTree 61.46697998046875 -7.050860404968262 0 6 6
+DecoTree 64.58142852783203 -5.18940544128418 0 6 6
+Bush 46.21910095214844 -17.34223175048828 0 2 2
+Bush 47.412200927734375 -17.99374008178711 0 2 2
+Dirt23 59 -8 2 1 1
+Bush 58.59345245361328 -8.246797561645508 0 10 2
+Bush 59.600616455078125 -7.9055304527282715 0 8 2
+Bush 69.01309967041016 -2.631432056427002 0 2 2
+Bush 62.59535217285156 -6.880269527435303 0 6 2
+Bush 68.26091003417969 -4.0825371742248535 0 2 2
+Bush 68.4736328125 -3.8210649490356445 0 2 2
+Bush 63.57847213745117 -14.197373390197754 0 6 2
+Bush 63.60946273803711 -15.004003524780273 0 6 2
+Bush 66.17919921875 -19.954992294311523 0 14 2
+Bush 69.06596374511719 -17.98495101928711 0 14 2
+Bush 67.94139862060547 -18.264171600341797 0 14 2
+DecoTree 106.4359359741211 -5.1244707107543945 0 36 6
+DecoTree 109.35005950927734 -6.783144950866699 0 24 6
+DecoTree 106.25875091552734 -8.629088401794434 0 36 6
+DecoTree 86.45548248291016 -0.4982536733150482 0 36 6
+DecoTree 89.52345275878906 1.5517821311950684 0 36 6
+DecoTree 86.62171936035156 3.1495308876037598 0 36 6
+DecoTree 79.24347686767578 -4.01680850982666 0 60 6
+DecoTree 82.29363250732422 -2.526540756225586 0 36 6
+Bush 81.1872787475586 -4.407196998596191 0 6 2
+Bush 82.05498504638672 -4.143490791320801 0 4 2
+Bush 81.4197006225586 -3.150714159011841 0 4 2
+Bush 81.06332397460938 -2.421644449234009 0 2 2
+DecoTree 82.02967834472656 -6.001476764678955 0 18 6
+DecoTree 84.92720031738281 -8.026517868041992 0 12 6
+DecoTree 82.21561431884766 -9.732851028442383 0 18 6
+DecoTree 81.99903869628906 -12.244467735290527 0 6 6
+DecoTree 79.57063293457031 -18.0305118560791 0 6 6
+Bush 84.36177825927734 -12.373656272888184 0 4 2
+Bush 85.33794403076172 -12.171998977661133 0 2 2
+Bush 86.45535278320312 -11.666000366210938 0 2 2
+Bush 86.20743560791016 -10.967954635620117 0 2 2
+Bush 87.28360748291016 -10.323999404907227 0 12 2
+Bush 86.49337768554688 -10.060294151306152 0 12 2
+Bush 23.55072021484375 5.36981725692749 0 2 2
+Bush 23.612653732299805 6.812444686889648 0 2 2
+DecoTree 19.85946273803711 4.7624006271362305 0 6 6
+DecoTree 21.655529022216797 6.872049331665039 0 6 6
+Bush 23.23482894897461 6.0499067306518555 0 2 2
+DecoTree 21.52334976196289 -12.97968864440918 0 6 6
+DecoTree 19.99185562133789 -10.293169021606445 0 6 6
+DecoTree 21.818885803222656 -7.826740741729736 0 6 6
+DecoTree 19.7286376953125 -5.701579570770264 0 6 6
+DecoTree 21.23052215576172 -3.3303990364074707 0 6 6
+DecoTree 43.06863784790039 -17.235336303710938 0 6 6
+Bush 40.64762496948242 -7.40731954574585 0 10 2
+TreeStatic -18.99298095703125 13.770063400268555 0 6 6
+TreeStatic -19.054912567138672 9.405652046203613 0 6 6
+TreeStatic -19.0939998626709 4.95349645614624 0 6 6
+TreeStatic -19.109481811523438 1.2532176971435547 0 6 6
+TreeStatic -18.583049774169922 -2.741511106491089 0 6 6
+TreeStatic -19.40366554260254 -7.461137771606445 0 6 6
+TreeStatic -19.335147857666016 -11.295408248901367 0 6 6
+TreeStatic -18.979032516479492 -15.57675552368164 0 6 6
+TreeStatic -23.280319213867188 3.74324893951416 0 12 6
+TreeStatic -23.357736587524414 7.3390655517578125 0 12 6
+TreeStatic -22.87775421142578 11.556944847106934 0 12 6
+TreeStatic -22.273902893066406 16.286346435546875 0 12 6
+TreeStatic -22.906452178955078 -0.7488446235656738 0 12 6
+TreeStatic -22.627750396728516 -4.927257061004639 0 12 6
+TreeStatic -22.651079177856445 -9.297853469848633 0 12 6
+TreeStatic -22.480762481689453 -13.332049369812012 0 12 6
+TreeStatic -22.697528839111328 -17.314834594726562 0 12 6
+Bush 25.86514663696289 10.168004989624023 0 14 2
+Bush 88.7423095703125 -8.443696022033691 0 6 2
+DecoTree 103.4706039428711 -10.270325660705566 0 36 6
+DecoTree 111.07230377197266 -12.740189552307129 0 36 6
+DecoTree 113.7612075805664 -14.769795417785645 0 36 6
+DecoTree 112.19882202148438 -16.067777633666992 0 36 6
+DecoTree 110.85423278808594 -19.299341201782227 0 60 6
+DecoTree 113.70939636230469 -17.984725952148438 0 36 6
+DecoTree 110.85409545898438 -23.78404998779297 0 60 6
+DecoTree 112.7017822265625 -21.56581687927246 0 60 6
+DecoTree 107.08575439453125 -25.522048950195312 0 60 6
+DecoTree 109.45564270019531 -27.55034637451172 0 60 6
+DecoTree 107.07757568359375 -29.148096084594727 0 60 6
+DecoTree 109.00015258789062 -31.25641441345215 0 60 6
+Bush 111.7369613647461 -31.142410278320312 0 58 2
+Bush 109.36158752441406 -29.979000091552734 0 4 2
+Bush 110.64765930175781 -30.413339614868164 0 2 2
+Bush 105.1532974243164 -10.373699188232422 0 8 2
+Bush 106.23793029785156 -10.016921043395996 0 8 2
+BigLog 155 -34 0.1 1 3
+BigLog 137 -34 0.1 1 3
+BigLog 122 -34 0.1 1 3
+BigLog 143 -34 0.1 1 3
+Bush 110.44391632080078 -31.414012908935547 0 12 2
+Bush 123.0316390991211 -31.30542755126953 0 14 2
+Bush 138.59906005859375 -31.336450576782227 0 4 2
+Bush 144.80413818359375 -31.38298797607422 0 10 2
+Bush 156.78135681152344 -31.39849853515625 0 16 2
+TreeStatic 23.30823516845703 19.37143898010254 0 114 6
+TreeStatic 20.303232192993164 21.20186996459961 0 114 6
+DecoTree 169.2962646484375 -30.979106903076172 0 6 6
+DecoTree 166.69313049316406 -29.396869659423828 0 6 6
+DecoTree 170.42507934570312 -27.23224449157715 0 6 6
+DecoTree 167.10919189453125 -25.23118019104004 0 6 6
+DecoTree 177.4816131591797 -25.187076568603516 0 6 6
+Grass 88 -29 0 29 17
+DecoTree 178.6204833984375 -27.401103973388672 0 6 6
+DecoTree 177.05665588378906 -29.6968994140625 0 6 6
+DecoTree 179.31723022460938 -31.65142822265625 0 6 6
+DecoTree 177.14956665039062 -33.54866409301758 0 12 6
+DecoTree 180.4903564453125 -34.712074279785156 0 12 6
+BoxColliderScalable 155 -44 0 27 9
+BoxColliderScalable 128 -44 0 27 9
+BoxColliderScalable 101 -44 0 27 9
+DecoTree 190.26173400878906 -36.22746658325195 0 6 6
+DecoTree 194.3065185546875 -46.98414993286133 0 6 6
+DecoTree 212.43121337890625 -47.92901611328125 0 6 6
+DecoTree 203.651611328125 -33.34342956542969 0 18 6
+DecoTree 206.7838897705078 -31.590557098388672 0 12 6
+DecoTree 203.65625 -29.418766021728516 0 18 6
+DecoTree 206.5516357421875 -27.116785049438477 0 12 6
+DecoTree 203.1143341064453 -25.364709854125977 0 18 6
+DecoTree 206.6135711669922 -23.265226364135742 0 12 6
+DecoTree 203.17776489257812 -21.140859603881836 0 18 6
+DecoTree 205.73251342773438 -19.7137451171875 0 18 6
+DecoTree 203.14328002929688 -17.334949493408203 0 18 6
+DecoTree 199.48199462890625 -20.23162078857422 0 6 6
+DecoTree 198.8936309814453 -28.287439346313477 0 6 6
+DecoTree 199.49746704101562 -24.211692810058594 0 6 6
+BoxColliderScalable 194 -33 0 6 3
+DecoTree 196.37680053710938 -33.179412841796875 0 6 6
+DecoTree 217.6143341064453 -22.157316207885742 0 6 6
+Bush 205.57510375976562 -33.5252799987793 0 14 2
+Bush 206.58151245117188 -33.176918029785156 0 14 2
+Bush 179.2611541748047 -34.30368423461914 0 4 2
+Bush 180.2520751953125 -34.61392593383789 0 4 2
+Bush 179.32308959960938 -35.017242431640625 0 2 2
+Bush 179.385009765625 -32.535301208496094 0 2 2
+Bush 171.72589111328125 -29.581024169921875 0 2 2
+Bush 171.4162139892578 -30.092924118041992 0 2 2
+Bush 172.42263793945312 -26.137332916259766 0 2 2
+Bush 114.5101318359375 -29.830734252929688 0 6 2
+Bush 124.46051788330078 -29.365371704101562 0 6 2
+Bush 132.4886016845703 -30.14097785949707 0 6 2
+Bush 142.45953369140625 -29.675613403320312 0 6 2
+Bush 153.35667419433594 -29.97034454345703 0 6 2
+Bush 162.30722045898438 -29.473957061767578 0 6 2
+Bush 169.20846557617188 -30.134254455566406 0 2 2
+TreeStatic 78.77200317382812 -47.9429931640625 0 102 6
+TreeStatic 81.34876251220703 -49.74752426147461 0 102 6
+DecoTree 14.252947807312012 4.471681118011475 0 6 6
+DecoTree 15.398714065551758 2.858419895172119 0 6 6
+Bush 16.668346405029297 3.0445656776428223 0 2 2
+Bush 16.947046279907227 3.8822197914123535 0 2 2
+BoxColliderScalable 147 20 0 4 2
+DryPlant 99 -16 0 1 1
+DryPlant 100 -16 0 1 1
+DryPlant 101 -16 0 1 1
+DryPlant 103 -19 0 1 1
+DryPlant 104 -19 0 1 1
+DryPlant 105 -18 0 1 1
+DryPlant 105 -17 0 1 1
+DryPlant 97 -13 0 1 1
+DryPlant 97 -12 0 1 1
+DryPlant 97 -11 0 1 1
+DryPlant 105 -13 0 1 1
+DryPlant 105 -12 0 1 1
+DryPlant 105 -11 0 1 1
+MonkeySpawner1 118 -34 0.05 1 1
+MonkeySpawner1 120 -33 0.05 1 1
+MonkeySpawner1 120 -35 0.05 1 1
+MonkeySpawner1 130 -33 0.05 1 1
+MonkeySpawner1 132 -33 0.05 1 1
+MonkeySpawner1 134 -33 0.05 1 1
+MonkeySpawner1 133 -34 0.05 1 1
+MonkeySpawner1 131 -34 0.05 1 1
+MonkeySpawner1 151 -33 0.05 1 1
+MonkeySpawner1 151 -34 0.05 1 1
+MonkeySpawner1 153 -33 0.05 1 1
+MonkeySpawner1 157 -33 0.05 1 1
+MonkeySpawner1 159 -34 0.05 1 1
+BindWeed 161 -32 0 1 2
+Water3 102 -38 0.05 1 1
+Water3 99 -41 0.05 1 1
+Water3 98 -39 0.05 1 1
+Water3 94 -37 0.05 1 1
+Water3 91 -41 0.05 1 1
+Water3 95 -43 0.05 1 1
+Water3 107 -43 0.05 1 1
+Water3 110 -40 0.05 1 1
+Water3 109 -39 0.05 1 1
+Water3 116 -38 0.05 1 1
+Water3 119 -42 0.05 1 1
+Water3 123 -43 0.05 1 1
+Water3 125 -40 0.05 1 1
+Water3 129 -38 0.05 1 1
+Water3 131 -42 0.05 1 1
+Water3 140 -38 0.05 1 1
+Water3 146 -41 0.05 1 1
+Water3 151 -42 0.05 1 1
+Water3 154 -38 0.05 1 1
+Water3 158 -43 0.05 1 1
+Water3 162 -38 0.05 1 1
+Water3 164 -41 0.05 1 1
+Water3 171 -42 0.05 1 1
+Water3 176 -38 0.05 1 1
+Water3 180 -43 0.05 1 1
+Water3 185 -43 0.05 1 1
+Water3 183 -38 0.05 1 1
+Water3 190 -37 0.05 1 1
+Water3 192 -42 0.05 1 1
+Water3 196 -50 0.05 1 1
+Water3 203 -53 0.05 1 1
+Water3 205 -51 0.05 1 1
+Water3 212 -53 0.05 1 1
+Water3 218 -50 0.05 1 1
+Water3 220 -50 0.05 1 1
+Water3 221 -45 0.05 1 1
+Water3 220 -39 0.05 1 1
+Water3 222 -37 0.05 1 1
+Water3 220 -32 0.05 1 1
+Water1 96 -42 0.05 1 1
+Water1 93 -39 0.05 1 1
+Water1 104 -41 0.05 1 1
+Water1 111 -37 0.05 1 1
+Water1 111 -43 0.05 1 1
+Water1 114 -41 0.05 1 1
+Water1 121 -39 0.05 1 1
+Water1 127 -43 0.05 1 1
+Water1 135 -40 0.05 1 1
+Water1 138 -43 0.05 1 1
+Water1 139 -42 0.05 1 1
+Water1 143 -43 0.05 1 1
+Water1 143 -40 0.05 1 1
+Water1 146 -38 0.05 1 1
+Water1 151 -37 0.05 1 1
+Water1 152 -43 0.05 1 1
+Water1 152 -39 0.05 1 1
+Water1 156 -41 0.05 1 1
+Water1 161 -42 0.05 1 1
+Water1 161 -39 0.05 1 1
+Water1 168 -42 0.05 1 1
+Water1 170 -39 0.05 1 1
+Water1 175 -40 0.05 1 1
+Water1 180 -37 0.05 1 1
+Water1 182 -41 0.05 1 1
+Water1 183 -44 0.05 1 1
+Water1 184 -47 0.05 1 1
+Water1 186 -49 0.05 1 1
+Water1 194 -45 0.05 1 1
+Water1 192 -39 0.05 1 1
+Water2 105 -39 0.05 1 1
+Water2 101 -42 0.05 1 1
+Water2 96 -38 0.05 1 1
+Water2 93 -42 0.05 1 1
+Water2 109 -42 0.05 1 1
+Water2 116 -40 0.05 1 1
+Water2 122 -42 0.05 1 1
+Water2 125 -37 0.05 1 1
+Water2 128 -41 0.05 1 1
+Water2 132 -38 0.05 1 1
+Water2 134 -42 0.05 1 1
+Water2 138 -40 0.05 1 1
+Water2 136 -37 0.05 1 1
+Water2 143 -37 0.05 1 1
+Water2 149 -39 0.05 1 1
+Water2 148 -43 0.05 1 1
+Water2 153 -41 0.05 1 1
+Water2 156 -39 0.05 1 1
+Water2 159 -37 0.05 1 1
+Water2 165 -39 0.05 1 1
+Water2 163 -43 0.05 1 1
+Water2 168 -40 0.05 1 1
+Water2 175 -43 0.05 1 1
+Water2 173 -38 0.05 1 1
+Water2 178 -41 0.05 1 1
+Water2 187 -38 0.05 1 1
+Water2 186 -45 0.05 1 1
+Water2 192 -44 0.05 1 1
+Water2 193 -48 0.05 1 1
+Water2 198 -52 0.05 1 1
+Water2 207 -53 0.05 1 1
+Water2 215 -51 0.05 1 1
+Water2 220 -47 0.05 1 1
+Water2 222 -41 0.05 1 1
+Water2 222 -34 0.05 1 1
+Water2 221 -29 0.05 1 1
+Water1 193 -41 0.05 1 1
+Water1 195 -49 0.05 1 1
+Water1 201 -51 0.05 1 1
+Water1 210 -52 0.05 1 1
+Water1 217 -52 0.05 1 1
+Water1 222 -44 0.05 1 1
+Water1 -6 -1 0.05 1 1
+Water1 -9 -4 0.05 1 1
+Water1 -11 0 0.05 1 1
+Water1 -7 4 0.05 1 1
+Water1 -8 7 0.05 1 1
+Water1 -11 9 0.05 1 1
+Water1 -7 12 0.05 1 1
+Water1 -10 14 0.05 1 1
+Water1 -7 19 0.05 1 1
+Water1 -11 22 0.05 1 1
+Water1 -6 15 0.05 1 1
+Water1 -11 18 0.05 1 1
+Water1 -7 23 0.05 1 1
+Water1 -7 -7 0.05 1 1
+Water1 -5 -10 0.05 1 1
+Water1 -10 -8 0.05 1 1
+Water1 -12 -6 0.05 1 1
+Water2 -7 -6 0.05 1 1
+Water2 -12 -3 0.05 1 1
+Water2 -8 -1 0.05 1 1
+Water2 -9 5 0.05 1 1
+Water2 -12 8 0.05 1 1
+Water2 -7 11 0.05 1 1
+Water2 -12 13 0.05 1 1
+Water2 -8 16 0.05 1 1
+Water2 -9 11 0.05 1 1
+Water2 -11 16 0.05 1 1
+Water2 -5 17 0.05 1 1
+Water2 -9 20 0.05 1 1
+Water2 -8 -10 0.05 1 1
+Water2 -11 -7 0.05 1 1
+Water2 -11 -13 0.05 1 1
+Water2 -6 -14 0.05 1 1
+Water2 -10 -17 0.05 1 1
+Water1 -7 -18 0.05 1 1
+Water1 -11 -20 0.05 1 1
+Water1 -5 -22 0.05 1 1
+Water2 -8 -21 0.05 1 1
+Water3 -8 0 0.05 1 1
+Water3 -7 -3 0.05 1 1
+Water3 -12 -10 0.05 1 1
+Water3 -10 -13 0.05 1 1
+Water3 -9 -16 0.05 1 1
+Water3 -5 -13 0.05 1 1
+Water3 -5 -20 0.05 1 1
+Water3 -12 -23 0.05 1 1
+Water3 -5 8 0.05 1 1
+Water3 -9 10 0.05 1 1
+Water3 -9 18 0.05 1 1
+Water3 -5 21 0.05 1 1
+NenupharBig -12 2 0.05 1 1
+Nenuphar -11.963155746459961 -0.058741092681884766 0.05 1 1
+NenupharBig -6.013156414031982 2.547295570373535 0.05 1 1
+Nenuphar -5.315890789031982 1.120180606842041 0.05 1 1
+Nenuphar -10.785552024841309 -4.734027862548828 0.05 1 1
+Nenuphar -8.476827621459961 3.9660022258758545 0.05 1 1
+Nenuphar -9.367568016052246 1.338649034500122 0.05 1 1
+NenupharBig -10.297255516052246 2.4400103092193604 0.05 1 1
+NenupharBig -7.880067825317383 1.9281103610992432 0.05 1 1
+LifeFlower 172.6088104248047 -31.285686492919922 0 1 1
+`
